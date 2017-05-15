@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace testapp.Views
 {
-	public partial class ItemsPage : ContentPage
+	public partial class ItemsPage : MasterDetailPage
 	{
 		ItemsViewModel viewModel;
 
@@ -16,6 +16,8 @@ namespace testapp.Views
 			InitializeComponent();
 
 			BindingContext = viewModel = new ItemsViewModel();
+            this.Master = new Master();
+            this.Detail = new NavigationPage(new Detail());
 		}
 
 		async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)

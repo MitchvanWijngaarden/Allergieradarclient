@@ -6,13 +6,14 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace testapp
 {
-	public partial class App : Application
-	{
+    public partial class App : Application
         public App()
 		{
 			InitializeComponent();
 
 			SetMainPage();
+          
+
 		}
 
 		public static void SetMainPage()
