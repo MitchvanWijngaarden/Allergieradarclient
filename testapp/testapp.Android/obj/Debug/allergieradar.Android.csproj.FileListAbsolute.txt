@@ -99,3 +99,6 @@ G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testa
 /Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.dll.mdb
 /Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
 /Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.HomePage.xaml.g.cs
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.MenuPage.xaml.g.cs
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.RootPage.xaml.g.cs

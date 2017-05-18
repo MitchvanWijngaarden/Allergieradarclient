@@ -1,5 +1,4 @@
 ﻿using testapp.Views;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,33 +6,32 @@ using Xamarin.Forms.Xaml;
 namespace testapp
 {
     public partial class App : Application
+    {
+
+
         public App()
+        {
+            InitializeComponent();
+
+            MainPage = new Views.RootPage();
+
+
+        }
+		protected override void OnStart()
 		{
-			InitializeComponent();
-
-			SetMainPage();
-          
-
+			// Handle when your app starts
 		}
 
-		public static void SetMainPage()
+		protected override void OnSleep()
 		{
-            Current.MainPage = new TabbedPage
-            {
-                Children =
-                {
-                    new NavigationPage(new ItemsPage())
-                    {
-                        Title = "Browse",
-                        Icon = Device.OnPlatform<string>("tab_feed.png",null,null)
-                    },
-                    new NavigationPage(new AboutPage())
-                    {
-                        Title = "About",
-                        Icon = Device.OnPlatform<string>("tab_about.png",null,null)
-                    },
-                }
-            };
-        }
-	}
+			// Handle when your app sleeps
+		}
+
+		protected override void OnResume()
+		{
+			// Handle when your app resumes
+		}
+
+
+    }
 }

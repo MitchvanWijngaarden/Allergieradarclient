@@ -17,7 +17,7 @@ namespace testapp.ViewModels
 
 		public ItemsViewModel()
 		{
-			Title = "Browse";
+			Title = "Informatie";
 			Items = new ObservableRangeCollection<Item>();
 			LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 

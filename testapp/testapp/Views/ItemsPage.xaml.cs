@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace testapp.Views
 {
-	public partial class ItemsPage : MasterDetailPage
+	public partial class ItemsPage : ContentPage
 	{
 		ItemsViewModel viewModel;
 
@@ -16,8 +16,7 @@ namespace testapp.Views
 			InitializeComponent();
 
 			BindingContext = viewModel = new ItemsViewModel();
-            this.Master = new Master();
-            this.Detail = new NavigationPage(new Detail());
+		
 		}
 
 		async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
@@ -32,10 +31,6 @@ namespace testapp.Views
 			ItemsListView.SelectedItem = null;
 		}
 
-		async void AddItem_Clicked(object sender, EventArgs e)
-		{
-			await Navigation.PushAsync(new NewItemPage());
-		}
 
 		protected override void OnAppearing()
 		{

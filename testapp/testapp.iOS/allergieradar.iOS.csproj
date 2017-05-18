@@ -161,6 +161,17 @@
     <BundleResource Include="Resources\tab_feed.png" />
     <BundleResource Include="Resources\tab_feed%402x.png" />
     <BundleResource Include="Resources\tab_feed%403x.png" />
+    <BundleResource Include="Resources\menu-icon.png" />
+    <BundleResource Include="Resources\icon.png" />
+    <BundleResource Include="Resources\itemIcon1.png" />
+    <BundleResource Include="Resources\itemIcon2.png" />
+    <BundleResource Include="Resources\itemIcon3.png" />
+    <BundleResource Include="Resources\itemIcon4.png" />
+    <BundleResource Include="Resources\itemIcon5.png" />
+    <BundleResource Include="Resources\itemIcon6.png" />
+    <BundleResource Include="Resources\itemIcon7.png" />
+    <BundleResource Include="Resources\itemIcon8.png" />
+    <BundleResource Include="Resources\itemIcon9.png" />
   </ItemGroup>
   <Import Project="..\testapp\testapp.projitems" Label="Shared" Condition="Exists('..\testapp\testapp.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
