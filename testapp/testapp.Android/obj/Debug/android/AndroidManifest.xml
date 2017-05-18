@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.testapp" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.testapp" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="testapp.Android" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <application android:label="testapp.Android" android:name="md557933599a254786be35615d2153791c5.MainApplication" android:allowBackup="true" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:label="testapp.Android" android:theme="@style/MyTheme" android:name="md557933599a254786be35615d2153791c5.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

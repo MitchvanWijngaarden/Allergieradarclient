@@ -1,5 +1,10 @@
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\testapp.Android.dll
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\FormsViewGroup.dll
+C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.CurrentActivity.dll
+C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Geolocator.Abstractions.dll
+C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Geolocator.dll
+C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll
+C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Permissions.dll
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
@@ -24,9 +29,10 @@ C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.And
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.ComponentModel.dll
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Reflection.dll
+C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Collections.dll
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Globalization.dll
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Linq.Expressions.dll

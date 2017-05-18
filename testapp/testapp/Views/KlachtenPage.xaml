@@ -26,7 +26,12 @@
             <Switch/>
             <Label Text="Ik heb de afgelopen 24 uur medicijnen voor hooikoorts gebruikt."/>
         </StackLayout>
-  
+
+        <Button Text="Verstuur" Clicked="Button_Clicked"/>
+
+
+        <Label x:Name ="debugText" Text="debug" IsVisible="true" />
+
 
     </StackLayout>
 </ContentPage>
