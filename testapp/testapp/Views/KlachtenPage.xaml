@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="testapp.Views.KlachtenPage"
+             Title="Klachten">
+
+    <StackLayout>
+        <Label Text="Klacht doogeven" IsVisible="true"/>
+
+        <Label Text="Neus" IsVisible="true"/>
+
+        <Slider x:Name="sliderNose" Minimum="0" Maximum="10" Value="0"  ValueChanged="OnSliderValueChanged" />
+        <Label x:Name="valueLabelNose" Text="0" />
+
+        <Label Text="Longen" IsVisible="true"/>
+
+        <Slider x:Name="sliderLungs" Minimum="0" Maximum="10" Value="0"  ValueChanged="OnSliderValueChanged"/>
+        <Label x:Name="valueLabelLungs" Text="0" />
+
+        <Label Text="Ogen" IsVisible="true" />
+
+        <Slider x:Name="sliderEyes" Minimum="0" Maximum="10" Value="0"  ValueChanged="OnSliderValueChanged"/>
+        <Label x:Name="valueLabelEyes" Text="0" />
+
+        <StackLayout Orientation="Horizontal" Spacing="0">
+            <Switch/>
+            <Label Text="Ik heb de afgelopen 24 uur medicijnen voor hooikoorts gebruikt."/>
+        </StackLayout>
+
+        <Button Text="Verstuur" Clicked="Button_Clicked"/>
+
+
+        <Label x:Name ="debugText" Text="debug" IsVisible="true" />
+
+
+    </StackLayout>
+</ContentPage>
