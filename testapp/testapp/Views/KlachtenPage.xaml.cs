@@ -52,7 +52,7 @@ namespace testapp.Views
                 if (locator.IsGeolocationEnabled)
                 {
                     // Allow ten seconds for geo-location determination.                    
-                    position = await locator.GetPositionAsync(10000);
+                    //position = await locator.GetPositionAsync(10000);
                     debugText.Text = "Position: " + position.Latitude + "lat" + position.Longitude + "long";
                 }
                 else
