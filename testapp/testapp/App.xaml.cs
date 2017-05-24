@@ -6,15 +6,28 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace testapp
 {
-	public partial class App : Application
-	{
+    public partial class App : Application
+    {
+
+        public static bool IsUserLoggedIn { get; set; }
+
         public App()
-		{
-			InitializeComponent();
-			MainPage = new Views.RootPage();
-			
-		}
+        {
+            InitializeComponent();
+
+            if (!IsUserLoggedIn)
+            {
+                MainPage = new Views.RootPage();
+            }
+            else
+            {
+                MainPage = new Views.RootPage();
+            }
+
+            
+
+        }
 
 
-	}
+    }
 }
