@@ -45,12 +45,6 @@ G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testa
 G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable-xxxhdpi\profile_generic.png
 G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\R.cs.flag
 G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\uploadflags.txt
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\testapp.Android.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\testapp.Android.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\testapp.Android.dll
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\testapp.Android.pdb
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\com.companyname.testapp.apk
@@ -127,3 +121,36 @@ C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.And
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Newtonsoft.Json.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.CurrentActivity.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.Abstractions.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.Abstractions.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Newtonsoft.Json.xml
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.CurrentActivity.xml
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.pdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.xml
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.Abstractions.pdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.Abstractions.xml
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.pdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.xml
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.Abstractions.pdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.Abstractions.xml
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.KlachtenPage.xaml.g.cs
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.Abstractions.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.Abstractions.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\testapp.Android.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Geolocator.Abstractions.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Geolocator.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Permissions.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\testapp.Android.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.LoginPage.xaml.g.cs
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.SignUpPage.xaml.g.cs

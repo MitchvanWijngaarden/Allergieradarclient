@@ -1,50 +1,65 @@
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\testapp.Android.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\FormsViewGroup.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.CurrentActivity.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Geolocator.Abstractions.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Geolocator.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Permissions.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Java.Interop.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Mono.Android.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Core.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Net.Http.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Xml.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\mscorlib.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Runtime.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.ComponentModel.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Reflection.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Collections.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.ObjectModel.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Globalization.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.IO.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Threading.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Linq.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Mono.Security.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\testapp.Android.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\FormsViewGroup.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.CurrentActivity.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Geolocator.Abstractions.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Geolocator.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Permissions.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Java.Interop.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Microsoft.CSharp.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Mono.Android.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Core.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.IO.Compression.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Net.Http.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Xml.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\mscorlib.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Runtime.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.ComponentModel.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Reflection.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.IO.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Runtime.Numerics.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Numerics.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Xml.XmlDocument.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Xml.XDocument.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Xml.Linq.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Collections.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Globalization.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.ComponentModel.TypeConverter.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Linq.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Runtime.Serialization.Formatters.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.ObjectModel.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Text.Encoding.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Threading.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Reflection.Primitives.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Mono.CSharp.dll
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Mono.Security.dll

@@ -8,12 +8,23 @@ namespace testapp
 {
 	public partial class App : Application
 	{
+
+        public static bool IsUserLoggedIn { get; set; }
         public App()
 		{
 			InitializeComponent();
 
-			SetMainPage();
-		}
+	
+
+            if (!IsUserLoggedIn)
+            {
+                MainPage = new NavigationPage(new LoginPage());
+            }
+            else
+            {
+                SetMainPage();
+            }
+        }
 
 		public static void SetMainPage()
 		{
@@ -36,6 +47,11 @@ namespace testapp
                         Title = "Klachten",
                         Icon = Device.OnPlatform<string>("tab_about.png",null,null)
                     },
+                    new NavigationPage(new LoginPage())
+                    {
+                        Title = "Inloggen",
+                        Icon = Device.OnPlatform<string>("tab_about.png", null,null)
+                    }
                 }
             };
         }
