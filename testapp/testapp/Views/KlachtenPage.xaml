@@ -30,7 +30,7 @@
         <Button Text="Verstuur" Clicked="Button_Clicked"/>
 
 
-        <Label x:Name ="debugText" Text="debug" IsVisible="true" />
+        <Label x:Name ="debugText" TextColor="Red" IsVisible="true" />
 
 
     </StackLayout>
