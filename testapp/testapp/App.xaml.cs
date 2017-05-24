@@ -13,6 +13,7 @@ namespace testapp
         public App()
 		{
 			InitializeComponent();
+<<<<<<< HEAD
 
 	
 
@@ -55,5 +56,12 @@ namespace testapp
                 }
             };
         }
+=======
+			MainPage = new Views.RootPage();
+			
+		}
+
+
+>>>>>>> dc3c6041b89aaab8fd380ccb7863d0dbc9efbf08
 	}
 }
