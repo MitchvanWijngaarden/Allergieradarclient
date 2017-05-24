@@ -18,6 +18,7 @@ namespace testapp.Views
     public partial class KlachtenPage : ContentPage
     {
         IGeolocator locator;
+        Position position = null;
 
         public KlachtenPage()
         {
@@ -25,7 +26,7 @@ namespace testapp.Views
         }
 
         void OnSliderValueChanged(object sender, ValueChangedEventArgs args) {
-            /*if (((Slider)sender) == sliderNose )
+            if (((Slider)sender) == sliderNose )
             {
                 valueLabelNose.Text = Convert.ToInt16(((Slider)sender).Value).ToString();
             } else if(((Slider)sender) == sliderLungs)
@@ -34,14 +35,13 @@ namespace testapp.Views
             } else if (((Slider)sender) == sliderEyes)
             {
                 valueLabelEyes.Text = Convert.ToInt16(((Slider)sender).Value).ToString();
-            }*/
+            }
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
             try
             {
-                Position position = null;
                 locator = CrossGeolocator.Current;
                 locator.DesiredAccuracy = 50;
 
@@ -126,14 +126,14 @@ namespace testapp.Views
             {
 
                 Complaint complaint = new Complaint();
-                complaint.complaintID = 2;
+                //complaint.complaintID = 2;
                 
-                complaint.eyes = 1;
-                complaint.nose = 2;
-                complaint.lungs = 7;
-                complaint.medicine = 0;
-                complaint.longtitude = "-18.5333";
-                complaint.latitude = "65.9667";
+                complaint.eyes = Convert.ToInt16(sliderEyes.Value);
+                complaint.nose = Convert.ToInt16(sliderNose.Value);
+                complaint.lungs = Convert.ToInt16(sliderLungs.Value);
+                complaint.medicine = Convert.ToInt16(medicineSwitch.IsToggled);
+                complaint.longtitude = position.Longitude.ToString();
+                complaint.latitude = position.Latitude.ToString();
 
                 String json = JsonConvert.SerializeObject(complaint);
 
@@ -179,13 +179,13 @@ namespace testapp.Views
                     httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(credentials));
 
                     response = await httpClient.PostAsync(new Uri(apiUrl), request);
-                    debugText.Text = messageBody;
+                    //debugText.Text = medicineSwitch.IsToggled.ToString();
                 }
                 
             }
-            catch (WebException ex)
+            catch (Exception ex)
             {
-                /*debugText.Text = ex.Message;*/
+                debugText.Text = ex.Message;
             }
         }
     }
