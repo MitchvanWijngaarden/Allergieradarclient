@@ -1,129 +1,199 @@
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\testapp.Android.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\testapp.Android.pdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\com.companyname.testapp.apk
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\com.companyname.testapp-Signed.apk
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\FormsViewGroup.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.Design.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.v4.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Core.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Platform.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\FormsViewGroup.pdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\FormsViewGroup.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Core.pdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Core.xml
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.xml
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\allergieradar.Android.csprojResolveAssemblyReference.cache
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.App.xaml.g.cs
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.AboutPage.xaml.g.cs
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.ItemsPage.xaml.g.cs
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.ItemDetailPage.xaml.g.cs
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.NewItemPage.xaml.g.cs
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Android.dll
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Android.pdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\bin\com.companyname.testapp.apk
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\layout\tabbar.xml
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\layout\toolbar.xml
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\values\styles.xml
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable\slideout.png
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable-hdpi\profile_generic.png
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable-mdpi\profile_generic.png
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable-xhdpi\profile_generic.png
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable-xxhdpi\profile_generic.png
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable-xxxhdpi\profile_generic.png
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\R.cs.flag
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\uploadflags.txt
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\testapp.Android.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\testapp.Android.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\testapp.Android.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\testapp.Android.pdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\com.companyname.testapp.apk
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\com.companyname.testapp-Signed.apk
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\FormsViewGroup.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.CurrentActivity.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.Abstractions.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.Abstractions.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.Design.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.v4.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\FormsViewGroup.pdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\FormsViewGroup.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.CurrentActivity.xml
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.pdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.xml
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.Abstractions.pdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.Abstractions.xml
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Geolocator.Abstractions.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.pdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.xml
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.Abstractions.pdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.Abstractions.xml
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Plugin.Permissions.Abstractions.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.App.xaml.g.cs
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.AboutPage.xaml.g.cs
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.ItemsPage.xaml.g.cs
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.ItemDetailPage.xaml.g.cs
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.NewItemPage.xaml.g.cs
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.KlachtenPage.xaml.g.cs
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Android.dll
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Android.pdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\bin\com.companyname.testapp.apk
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\layout\tabbar.xml
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\layout\toolbar.xml
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\values\styles.xml
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable\slideout.png
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable-hdpi\profile_generic.png
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable-mdpi\profile_generic.png
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable-xhdpi\profile_generic.png
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable-xxhdpi\profile_generic.png
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable-xxxhdpi\profile_generic.png
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\R.cs.flag
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\uploadflags.txt
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\allergieradar.Android.csprojResolveAssemblyReference.cache
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\testapp.Android.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Geolocator.Abstractions.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Geolocator.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Plugin.Permissions.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\testapp.Android.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/testapp.Android.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/testapp.Android.pdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/com.companyname.testapp.apk
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/com.companyname.testapp-Signed.apk
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/FormsViewGroup.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.Design.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v4.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v7.CardView.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v7.MediaRouter.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/FormsViewGroup.pdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/FormsViewGroup.dll.mdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.pdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.xml
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.dll.mdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.Android.pdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.pdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.xml
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/allergieradar.Android.csprojResolveAssemblyReference.cache
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.App.xaml.g.cs
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.AboutPage.xaml.g.cs
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.ItemsPage.xaml.g.cs
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.ItemDetailPage.xaml.g.cs
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.NewItemPage.xaml.g.cs
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Android.dll
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Android.pdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/bin/com.companyname.testapp.apk
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/layout/tabbar.xml
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/layout/toolbar.xml
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/values/styles.xml
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable/slideout.png
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-hdpi/profile_generic.png
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-mdpi/profile_generic.png
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-xhdpi/profile_generic.png
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-xxhdpi/profile_generic.png
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-xxxhdpi/profile_generic.png
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/R.cs.flag
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/uploadflags.txt
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/bin/Debug/testapp.Android.dll.mdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/FormsViewGroup.dll.mdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/testapp.Android.dll.mdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/Xamarin.Forms.Core.dll.mdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll.mdb
+G:/Bernd Oostrum/Documents/Visual Studio 2017/Projects/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/testapp.Android.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/testapp.Android.pdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/com.companyname.testapp.apk
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/com.companyname.testapp-Signed.apk
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/FormsViewGroup.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.CurrentActivity.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.Abstractions.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.Abstractions.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.Design.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v4.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v7.CardView.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v7.MediaRouter.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/FormsViewGroup.pdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/FormsViewGroup.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.CurrentActivity.xml
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.pdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.xml
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.Abstractions.pdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.Abstractions.xml
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.Abstractions.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.pdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.xml
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.Abstractions.pdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.Abstractions.xml
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.Abstractions.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.pdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.xml
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.Android.pdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.pdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.xml
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.App.xaml.g.cs
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.AboutPage.xaml.g.cs
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.ItemsPage.xaml.g.cs
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.ItemDetailPage.xaml.g.cs
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.NewItemPage.xaml.g.cs
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.KlachtenPage.xaml.g.cs
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Android.dll
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Android.pdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/bin/com.companyname.testapp.apk
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/layout/tabbar.xml
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/layout/toolbar.xml
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/values/styles.xml
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable/slideout.png
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-hdpi/profile_generic.png
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-mdpi/profile_generic.png
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-xhdpi/profile_generic.png
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-xxhdpi/profile_generic.png
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-xxxhdpi/profile_generic.png
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/R.cs.flag
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/uploadflags.txt
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/allergieradar.Android.csprojResolveAssemblyReference.cache
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/bin/Debug/testapp.Android.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/FormsViewGroup.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/Plugin.Geolocator.Abstractions.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/Plugin.Geolocator.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/Plugin.Permissions.Abstractions.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/Plugin.Permissions.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/testapp.Android.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/Xamarin.Forms.Core.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll.mdb
+C:/Users/alldocube/Desktop/Allergieradar/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll.mdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/testapp.Android.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/testapp.Android.pdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/com.companyname.testapp.apk
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/com.companyname.testapp-Signed.apk
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/FormsViewGroup.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Newtonsoft.Json.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.CurrentActivity.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.Abstractions.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.Abstractions.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.Design.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v4.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v7.CardView.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v7.MediaRouter.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/FormsViewGroup.pdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/FormsViewGroup.dll.mdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Newtonsoft.Json.xml
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.CurrentActivity.xml
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.pdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.dll.mdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.xml
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.Abstractions.pdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.Abstractions.dll.mdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Geolocator.Abstractions.xml
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.pdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.dll.mdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.xml
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.Abstractions.pdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.Abstractions.dll.mdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Plugin.Permissions.Abstractions.xml
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Core.xml
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.Android.pdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/allergieradar.Android.csproj.CoreCompileInputs.cache
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.App.xaml.g.cs
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.AboutPage.xaml.g.cs
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.ItemsPage.xaml.g.cs
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.ItemDetailPage.xaml.g.cs
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.NewItemPage.xaml.g.cs
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.HomePage.xaml.g.cs
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.RootPage.xaml.g.cs
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Droid.Views.KlachtenPage.xaml.g.cs
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Android.dll
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/testapp.Android.pdb
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/android/bin/com.companyname.testapp.apk
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/layout/tabbar.xml
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/layout/toolbar.xml
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/values/styles.xml
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable/slideout.png
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-hdpi/profile_generic.png
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-mdpi/profile_generic.png
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-xhdpi/profile_generic.png
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-xxhdpi/profile_generic.png
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/res/drawable-xxxhdpi/profile_generic.png
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/R.cs.flag
+/Users/vedadpiric/Allergieradarclient/testapp/testapp.Android/obj/Debug/uploadflags.txt

@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "testapp.Android.dll" comes first in this list. */
 		"testapp.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Geolocator.Abstractions.dll",
 		"Plugin.Geolocator.dll",
