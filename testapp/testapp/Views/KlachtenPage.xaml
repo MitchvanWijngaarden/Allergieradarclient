@@ -23,14 +23,14 @@
         <Label x:Name="valueLabelEyes" Text="0" />
 
         <StackLayout Orientation="Horizontal" Spacing="0">
-            <Switch/>
+            <Switch x:Name="medicineSwitch"/>
             <Label Text="Ik heb de afgelopen 24 uur medicijnen voor hooikoorts gebruikt."/>
         </StackLayout>
-
+        
         <Button Text="Verstuur" Clicked="Button_Clicked"/>
 
 
-        <Label x:Name ="debugText" Text="debug" IsVisible="true" />
+        <Label x:Name ="debugText" TextColor="Red" IsVisible="true" />
 
 
     </StackLayout>
