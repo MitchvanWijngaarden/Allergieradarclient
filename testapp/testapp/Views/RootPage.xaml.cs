@@ -19,12 +19,14 @@ namespace testapp.Views
 			var page1 = new ViewModels.MenuPageViewModel() { Title = "Home", Icon = "itemIcon1.png", TargetType = typeof(HomePage) };
 			var page2 = new ViewModels.MenuPageViewModel() { Title = "Informatie", Icon = "itemIcon1.png", TargetType = typeof(ItemsPage) };
             var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(KlachtenPage) };
+            var loginPage = new ViewModels.MenuPageViewModel() { Title = "Inloggen", Icon = "itemIcon1.png", TargetType = typeof(LoginPage)};
 
 
 
 			menuList.Add(page1);
 			menuList.Add(page2);
             menuList.Add(page3);
+            menuList.Add(loginPage);
 
 			navigationDrawerList.ItemsSource = menuList;
 
