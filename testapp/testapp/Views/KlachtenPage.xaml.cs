@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using testapp.Services;
+using testapp.Controllers;
 
 namespace testapp.Views
 {
@@ -17,10 +18,15 @@ namespace testapp.Views
     {
         IGeolocator locator;
         Position position = null;
+        private ComplaintsController controller;
+        public Boolean gpsEnabled { get; set; }
 
         public KlachtenPage()
         {
             InitializeComponent();
+            controller = new ComplaintsController(this);
+            controller.CheckLocationEnabledAsync();
+
         }
 
         void OnSliderValueChanged(object sender, ValueChangedEventArgs args) {
@@ -36,32 +42,18 @@ namespace testapp.Views
             }
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
+        private void Button_Clicked(object sender, EventArgs e)
         {
-            try
-            {
-                locator = CrossGeolocator.Current;
-                locator.DesiredAccuracy = 50;
 
-                // Get the current device position. Leave it null if geo-location is disabled,
-                // return position (0, 0) if unable to acquire.
-                if (locator.IsGeolocationEnabled)
-                {
-                    // Allow ten seconds for geo-location determination.                    
-                    position = await locator.GetPositionAsync(10000);
-                }
-                else
-                {
-                    debugText.Text = ("Location could not be acquired, geolocator is disabled.");
-                }
-            }
-            catch (Exception le)
-            {
-                debugText.Text = ("Location could not be acquired.") + le.Message + " " + le.StackTrace;
-            }
             try
             {
-                SubmitData();
+                if (gpsEnabled)
+                {
+                    SubmitData();
+                } else
+                {
+                    showAlert("Melding", "Uw locatie kan niet opgehaald worden, zet alstublieft uw GPS aan.");
+                }
 
             } catch (Exception ex)
             {
@@ -81,17 +73,21 @@ namespace testapp.Views
                     nose = Convert.ToInt16(sliderNose.Value),
                     lungs = Convert.ToInt16(sliderLungs.Value),
                     medicine = Convert.ToInt16(medicineSwitch.IsToggled),
-                    longtitude = position.Longitude.ToString(),
-                    latitude = position.Latitude.ToString()
                 };
 
-                ComplaintService.Instance.SubmitComplaint(complaint);
+                controller.submitComplaint(complaint);
                 
             }
             catch (Exception ex)
             {
                 debugText.Text = ex.Message;
             }
+        }
+
+
+        public void showAlert(String alertType, String alertMessage)
+        {
+            DisplayAlert(alertType, alertMessage, "OK");
         }
     }
 }

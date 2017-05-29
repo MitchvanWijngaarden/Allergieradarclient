@@ -12,7 +12,7 @@ namespace testapp.Services
     {
         private static ComplaintService instance;
 
-        private static string apiUrl = "http://145.101.90.211:8080/api/complaints";
+        private static string apiUrl = "http://145.101.90.110:8080/api/complaints";
 
         private ComplaintService() { }
 
@@ -28,7 +28,7 @@ namespace testapp.Services
             }
         }
 
-        public async void SubmitComplaint(Complaint complaint)
+        public async void SubmitComplaintAsync(Complaint complaint)
         {
             HttpResponseMessage response;
             String messageBody = JsonConvert.SerializeObject(complaint);
@@ -36,12 +36,19 @@ namespace testapp.Services
 
             using (var httpClient = new HttpClient())
             {
-                var request = new StringContent(messageBody);
-                request.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-                var credentials = Encoding.ASCII.GetBytes("test:test");
-                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(credentials));
+                try
+                {
+                    var request = new StringContent(messageBody);
+                    request.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+                    var credentials = Encoding.ASCII.GetBytes("test:test");
+                    httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(credentials));
 
-                response = await httpClient.PostAsync(new Uri(apiUrl), request);
+                    response = await httpClient.PostAsync(new Uri(apiUrl), request);
+
+                }
+                catch (Exception ex)
+                {
+                }
             }
         }
 
