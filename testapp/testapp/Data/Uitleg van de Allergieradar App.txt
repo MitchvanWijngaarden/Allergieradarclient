@@ -1,0 +1,41 @@
+Uitleg van de Allergieradar App
+Elke pagina
+Helemaal rechtsboven in het scherm kun je inloggen indien je via de website Allergieradar.nl een account hebt aangemaakt. Na inloggen kun je jouw klachtenscores via de App doorgeven. Helemaal links boven kun je via de knop ‘Vorige’ naar de vorige pagina.
+
+Home
+Landelijke klachtenscore:
+Het cijfer geeft de landelijke gemiddelde maximale klachtenscore weer die door de deelnemers vandaag zijn doorgegeven. Nederland is daarnaast opgesplitst in vijf regio’s. De klachtenscore kan variëren van 1 (geen klachten) tot 10 (maximale klachten). Onder het cijfer staat horizontaal een kleurenbalk afgebeeld. Het witte driehoekje onder de kleurenbalk wijst aan welke gemiddelde klachtenscore op dat moment actueel is.
+Indien je op het cijfer klikt dan kom je op de pagina met de kaart van Nederland waarop alle doorgegeven klachtenscores staan.
+
+Nu klachten van:
+Onder deze tekst worden de planten vermeld die nu pollen kunnen afgeven en hooikoortsklachten kunnen veroorzaken. In de huidige versie van de App zijn de volgende planten in het overzicht opgenomen: hazelaar, els, berk, gras, zuring, weegbree, bijvoet en ambrosia.
+Indien je de getoonde informatie aanraakt kom je op de pagina ‘Verwacht’ met daarop de actuele hooikoortsverwachting en de Pollenplanner.
+
+Het weer:
+Hier wordt door middel van een weersymbool de actuele weersituatie weergegeven. Naast het symbool staat de actuele temperatuur weergegeven van de plaats waar je je op dat moment bevindt en daaronder de kans op neerslag. De locatie wordt automatisch bepaald op basis van je positie ten opzichte van de zendmasten of de GPS-informatie indien je de GPS aan hebt staan.
+
+Kaart
+In de kaart van Nederland verschijnt op elke plek waar iemand die dag een klachtenscore heeft doorgegeven een gekleurd blokje. De kleur van het blokje komt overeen met de maximale klachtenscore die de persoon heeft doorgegeven. Nederland is opgesplitst in vijf regio’s. Indien er in een bepaalde regio voldoende klachtenscores zijn doorgegeven verschijnt er in de kaart een klein vierkantje met daarbinnen de gemiddelde maximale klachtenscore voor de regio. Onder de kaart staat de kleurenbalk met daaronder een wit driehoekje dat aangeeft wat de landelijke gemiddelde score is.
+Onder de kleurenbalk heb je de mogelijkheid om de kaart van de voorgaande dag te bekijken door op de button ‘Gisteren’ te klikken.
+
+Klacht
+Indien je je geregistreerd hebt via www.allergieradar.nl en je op de App ingelogd bent verschijnt de optie ‘Klacht’ in het menu. Op deze pagina kun je jouw klachtenscore melden. Je vult achtereenvolgens het volgende in:
+De locatie waar je de hooikoortsklachten ervaren hebt. Die staat standaard op ‘Huidige locatie’. De huidige locatie wordt bepaald op basis van je positie ten opzichte van telefoonmasten. Indien de GPS aan staat wordt van die optie gebruik gemaakt.
+Indien je via Allergieradar.nl binnen jouw profiel vaste locaties hebt aangemaakt kun je die ook selecteren. Hiervoor klik je eerst op de tekst ‘Huidige locatie’ en selecteer je vervolgens de gewenste locatie.
+De periode waarover je jouw hooikoortsklachten meldt. Je hebt de volgende opties: Gisteren, Nu of Vandaag. Je kunt meerdere keren per dag een klachtenscore doorgeven. Voor het onderzoek geldt, hoe vaker hoe beter.
+De mate van oogklachten, neusklachten en longklachten. Je kunt het juiste klachtenniveau selecteren door de schuifbalk te verschuiven.
+Tenslotte vragen we je om aan te geven of je in de afgelopen 24 uur medicijnen voor jouw hooikoorts gebruikt hebt.
+Verwacht
+Op deze pagina wordt de actuele hooikoortsverwachting van het LUMC getoond. Daarnaast vind je op deze pagina de Pollenplanner. De Pollenplanner geeft dagelijks een nieuwe verwachting voor heel Nederland van de periode waarin de diverse hooikoortsplanten zullen bloeien en dus bij mooi weer pollen in de lucht kunnen verspreiden. De Pollenplanner wordt automatisch gegenereerd op basis van de weersverwachtingen. Het is daarom mogelijk dat de werkelijke start en duur afwijkt van de getoonde verwachting. Een uitgebreide animatie per soort is te vinden op Allergieradar.nl.
+
+Nieuws
+Op de nieuwspagina worden van alle nieuwsberichten die Allergieradar heeft uitgebracht de titel, datum en de lead getoond. Indien je het hele bericht wilt lezen kun je op ‘Meer’ klikken. Het volledige bericht wordt dan getoond in je browser.
+
+Allergie
+Informatie over veel voorkomende allergenen.
+
+Hooikoorts en pollen
+Op deze pagina vind je achtergrondinformatie over hooikoorts en pollen.
+
+Hooikoorts veroorzakende pollen
+Op deze pagina vind je achtergrondinformatie over de belangrijkste hooikoorts veroorzakende pollen. Je vindt daar onder andere de pollenkalenders van de afzonderlijke soorten.

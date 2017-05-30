@@ -42,15 +42,16 @@
     <OutputPath>bin\iPhone\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: vedad-pr@hotmail.com (G2S3RMSRBQ)</CodesignKey>
     <MtouchFloat32>true</MtouchFloat32>
-    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignEntitlements>Info.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <PlatformTarget>x86</PlatformTarget>
     <BuildIpa>true</BuildIpa>
+    <CodesignProvision>iOS Team Provisioning Profile: com.beveda.Allergieradar</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
@@ -73,17 +74,18 @@
     <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: vedad-pr@hotmail.com (G2S3RMSRBQ)</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchFloat32>true</MtouchFloat32>
-    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignEntitlements>Info.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>iOS Team Provisioning Profile: com.beveda.Allergieradar</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -166,6 +168,27 @@
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
     <None Include="packages.config" />
+    <None Include="Data\Hooikoortsenpollen\geranium.jpg" />
+    <None Include="Data\Hooikoortsenpollen\lr_hazelaarpollenopvinger.jpg" />
+    <None Include="Data\Hooikoortsenpollen\lr_media_742_064128.jpg" />
+    <None Include="Data\Hooikoortsenpollen\lr_media_749_72d0e1.jpg" />
+    <None Include="Data\Hooikoortsenpollen\lr_vossenstaart.jpg" />
+    <None Include="Data\Hooikoortsenpollen\lr_vossenstaart-detail.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\lr_media_748_36aa37.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\lr_media_749_72d0e1.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\lr_media_754_d58e32.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\lr_media_755_28b2c6.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\lr_media_757_0013e5.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\lr_media_758_ae0a67.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\lr_media_759_98ba84.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\lr_zwarte-els-katjes.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\media_751_3f7910.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\media_752_cf699f.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\media_753_4471ad.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\media_756_fa9496.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\media_760_9c3dd8.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\media_761_587168.jpg" />
+    <None Include="Data\Hooikoortsveroozakers\media_762_32f55c.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -183,6 +206,19 @@
     <BundleResource Include="Resources\tab_feed.png" />
     <BundleResource Include="Resources\tab_feed%402x.png" />
     <BundleResource Include="Resources\tab_feed%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Allergie.txt" />
+    <Content Include="Data\Contact.txt" />
+    <Content Include="Data\Hooikoorts veroorzakende pollen.txt" />
+    <Content Include="Data\Hooikoortsenpollen.txt" />
+    <Content Include="Data\Onderzoeksdoelen.txt" />
+    <Content Include="Data\Over AllergieRadar.txt" />
+    <Content Include="Data\Rechten en Privacy.txt" />
+    <Content Include="Data\Uitleg van de Allergieradar App.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
   </ItemGroup>
   <Import Project="..\testapp\testapp.projitems" Label="Shared" Condition="Exists('..\testapp\testapp.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

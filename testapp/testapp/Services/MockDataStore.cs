@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 using testapp.Models;
@@ -69,21 +71,32 @@ namespace testapp.Services
 		{
 			return Task.FromResult(true);
 		}
+        public String getText(string file)
+        {
+            
+            var content = File.ReadAllText(file);
+       
+
+            return content;
+        }
 
 		public async Task InitializeAsync()
 		{
+          
 			if (isInitialized)
 				return;
 
 			items = new List<Item>();
 			var _items = new List<Item>
 			{
-				new Item { Id = Guid.NewGuid().ToString(), Text = "Buy some cat food", Description="The cats are hungry"},
-				new Item { Id = Guid.NewGuid().ToString(), Text = "Learn F#", Description="Seems like a functional idea"},
-				new Item { Id = Guid.NewGuid().ToString(), Text = "Learn to play guitar", Description="Noted"},
-				new Item { Id = Guid.NewGuid().ToString(), Text = "Buy some new candles", Description="Pine and cranberry for that winter feel"},
-				new Item { Id = Guid.NewGuid().ToString(), Text = "Complete holiday shopping", Description="Keep it a secret!"},
-				new Item { Id = Guid.NewGuid().ToString(), Text = "Finish a todo list", Description="Done"},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Allergie", Description= getText("Data/Allergie.txt")},
+				new Item { Id = Guid.NewGuid().ToString(), Text = "Hooikoorts en pollen", Description= getText("Data/Hooikoorts veroorzakende pollen.txt")},
+				new Item { Id = Guid.NewGuid().ToString(), Text = "Hooikoortsveroorzakers", Description= getText("Data/Hooikoortsenpollen.txt")},
+				new Item { Id = Guid.NewGuid().ToString(), Text = "Over Allergieradar", Description= getText("Data/Over AllergieRadar.txt")},
+				new Item { Id = Guid.NewGuid().ToString(), Text = "Onderzoekdoelen", Description= getText("Data/Rechten en Privacy.txt")},
+				new Item { Id = Guid.NewGuid().ToString(), Text = "Uitleg Allergieradar App", Description= getText("Data/Uitleg van de Allergieradar App.txt")},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Contact", Description= getText("Data/Contact.txt")},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Rechten en Privacy",Description= getText("Data/Rechten en Privacy.txt")},
 			};
 
 			foreach (Item item in _items)
