@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
+using System.Threading.Tasks;
 using testapp.Models;
 
 namespace testapp.Services
@@ -12,7 +13,7 @@ namespace testapp.Services
     {
         private static ComplaintService instance;
 
-        private static string apiUrl = "http://145.101.90.110:8080/api/complaints";
+        private static string apiUrl = "http://145.101.90.240:8080/api/complaint";
 
         private ComplaintService() { }
 
@@ -52,20 +53,37 @@ namespace testapp.Services
             }
         }
 
-        public List<Complaint> GetAllComplaints()
+
+        public async void getAllComplaints()
         {
-            List<Complaint> complaintList = new List<Complaint>();
-
-            using (var httpClient = new HttpClient())
+            try
             {
-                var credentials = Encoding.ASCII.GetBytes("test:test");
-                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(credentials));
+               // List<Complaint> complaintList = new List<Complaint>();
 
-                //response = await httpClient.PostAsync(new Uri(apiUrl), request);
+                HttpClient client = new HttpClient();
+
+                var byteArray = Encoding.ASCII.GetBytes("test:test");
+                client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray));
+
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
+                HttpContent content = response.Content;
+
+                // ... Check Status Code                                
+                Console.WriteLine("Response StatusCode: " + (int)response.StatusCode);
+
+                // ... Read the string.
+                string result = await content.ReadAsStringAsync();
+
+                //Complaint m = JsonConvert.DeserializeObject<Complaint>(result);
+
+                //complaintList.Add(m);
+
+                Console.WriteLine("We hebben het volgende ontvangen:" + result);
+            } catch (Exception ex)
+            {
+                Console.WriteLine(ex);
             }
-
-            return complaintList;
-
+            
 
         }
     }

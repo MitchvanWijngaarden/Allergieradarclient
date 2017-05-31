@@ -18,6 +18,9 @@ namespace testapp.Controllers
         public ComplaintsController(KlachtenPage view)
         {
             this.view = view;
+
+            ComplaintService.Instance.getAllComplaints();
+
         }
 
         public async System.Threading.Tasks.Task<bool> CheckLocationEnabledAsync()
@@ -39,7 +42,7 @@ namespace testapp.Controllers
                     return false;
                 }
             }
-            catch (Exception le)
+            catch (Exception le) 
             {
                 view.gpsEnabled = false;
                 return false;
