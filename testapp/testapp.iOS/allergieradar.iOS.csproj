@@ -206,6 +206,7 @@
     <BundleResource Include="Resources\tab_feed.png" />
     <BundleResource Include="Resources\tab_feed%402x.png" />
     <BundleResource Include="Resources\tab_feed%403x.png" />
+    <BundleResource Include="Resources\allergieradar_logo.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\Allergie.txt" />
