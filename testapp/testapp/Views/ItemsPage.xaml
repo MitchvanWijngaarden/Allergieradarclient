@@ -21,8 +21,9 @@
         <ListView.ItemTemplate>
           <DataTemplate>
             <ViewCell>
-              <StackLayout Padding="10">
-                <Label Text="{Binding Text}"
+              <StackLayout Padding="27">
+                <Label HorizontalOptions="Center"
+                Text="{Binding Text}"
                        LineBreakMode="NoWrap"
                        Style="{DynamicResource ListItemTextStyle}"
                        FontSize="16"/>

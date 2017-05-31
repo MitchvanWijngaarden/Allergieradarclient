@@ -7,7 +7,7 @@
         
     <ContentPage
             Title="Menu"
-            Icon="menu-icon.png"
+            Icon="slideout.png"
                  BackgroundColor="#e8e8e8">
 
       <StackLayout Orientation="Vertical">
