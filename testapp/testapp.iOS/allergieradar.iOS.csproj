@@ -193,6 +193,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="BaseUrl_iOS.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\profile_generic.png" />
@@ -207,6 +208,7 @@
     <BundleResource Include="Resources\tab_feed%402x.png" />
     <BundleResource Include="Resources\tab_feed%403x.png" />
     <BundleResource Include="Resources\allergieradar_logo.png" />
+    <BundleResource Include="Resources\country.html" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\Allergie.txt" />

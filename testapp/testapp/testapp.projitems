@@ -79,6 +79,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\LoginPage.xaml.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\SignUpPage.xaml.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\CustomList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LocalHtmlBaseUrl.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Services\" />
