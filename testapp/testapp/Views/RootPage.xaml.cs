@@ -16,8 +16,8 @@ namespace testapp.Views
 			menuList = new List<ViewModels.MenuPageViewModel>();
 
 
-			var page1 = new ViewModels.MenuPageViewModel() { Title = "Home", Icon = "itemIcon1.png", TargetType = typeof(HomePage) };
-			var page2 = new ViewModels.MenuPageViewModel() { Title = "Informatie", Icon = "itemIcon1.png", TargetType = typeof(ItemsPage) };
+			var page1 = new ViewModels.MenuPageViewModel() { Title = "Home", Icon = "itemIcon1.png", TargetType = typeof(LocalHtmlBaseUrl) };
+			var page2 = new ViewModels.MenuPageViewModel() { Title = "Informatie", Icon = "tab_about.png", TargetType = typeof(ItemsPage) };
             var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(KlachtenPage) };
             var loginPage = new ViewModels.MenuPageViewModel() { Title = "Inloggen", Icon = "itemIcon1.png", TargetType = typeof(LoginPage)};
 

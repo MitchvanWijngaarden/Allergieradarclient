@@ -98,6 +98,7 @@
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <None Include="project.json" />
+    <None Include="BaseUrl_WinPhone.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
