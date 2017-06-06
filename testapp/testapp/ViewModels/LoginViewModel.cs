@@ -5,85 +5,24 @@ using Xamarin.Forms;
 
 using testapp.ViewModels;
 using testapp.Models;
+using testapp.Services;
+using System.Threading.Tasks;
 
 namespace testapp.ViewModels
 {
     public class LoginViewModel : ContentPage
     {
-        Entry usernameEntry, passwordEntry;
-        Label messageLabel;
+        LoginService<User>  loginService = new LoginService<User>();
 
-
-        public LoginViewModel()
+     // Boolean function with the following parameters of username & password.
+        public async Task<bool> CheckLoginIfExists(string username, string password)
         {
-            var toolbarItem = new ToolbarItem
-            {
-                Text = "Sign Up"
-            };
-            toolbarItem.Clicked += OnSignUpButtonClicked;
-            ToolbarItems.Add(toolbarItem);
+            var check = await loginService.checkLogin(username, password);
 
-            messageLabel = new Label();
-            usernameEntry = new Entry
-            {
-                Placeholder = "username"
-            };
-            passwordEntry = new Entry
-            {
-                IsPassword = true
-            };
-            var loginButton = new Button
-            {
-                Text = "Login"
-            };
-            loginButton.Clicked += OnLoginButtonClicked;
-
-            Title = "Login";
-            Content = new StackLayout
-            {
-                VerticalOptions = LayoutOptions.StartAndExpand,
-                Children = {
-                    new Label { Text = "Username" },
-                    usernameEntry,
-                    new Label { Text = "Password" },
-                    passwordEntry,
-                    loginButton,
-                    messageLabel
-                }
-            };
+            return check;
         }
 
-        async void OnSignUpButtonClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new SignupViewModel());
-        }
 
-        async void OnLoginButtonClicked(object sender, EventArgs e)
-        {
-            var user = new User
-            {
-                Username = usernameEntry.Text,
-                Password = passwordEntry.Text
-            };
-
-            var isValid = AreCredentialsCorrect(user);
-            if (isValid)
-            {
-                App.IsUserLoggedIn = true;
-                Navigation.InsertPageBefore(new MainPageModel(), this);
-                await Navigation.PopAsync();
-            }
-            else
-            {
-                messageLabel.Text = "Login failed";
-                passwordEntry.Text = string.Empty;
-            }
-        }
-
-        bool AreCredentialsCorrect(User user)
-        {
-            return user.Username == Constants.Username && user.Password == Constants.Password;
-        }
     }
 
 }

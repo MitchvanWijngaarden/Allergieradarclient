@@ -9,6 +9,7 @@ using Xamarin.Forms.Xaml;
 
 using testapp.Models;
 using testapp.ViewModels;
+using testapp.Helpers;
 
 namespace testapp.Views
 {
@@ -26,32 +27,30 @@ namespace testapp.Views
             await Navigation.PushAsync(new SignUpPage());
         }
 
-        async void OnLoginButtonClicked(object sender, EventArgs e)
+        private async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            var user = new User
+            try
             {
-                Username = usernameEntry.Text,
-                Password = passwordEntry.Text
-            };
 
-            var isValid = AreCredentialsCorrect(user);
-            if (isValid)
+            
+            LoginViewModel services = new LoginViewModel();
+            var getLoginDetails = await services.CheckLoginIfExists(usernameEntry.Text, passwordEntry.Text);
+
+            if (getLoginDetails)
             {
-                App.IsUserLoggedIn = true;
-                Navigation.InsertPageBefore(new MainPageModel(), this);
-                await Navigation.PopAsync();
+                await DisplayAlert("Login success", "You are login", "Okay", "Cancel");
             }
             else
             {
-                messageLabel.Text = "Login failed";
-                passwordEntry.Text = string.Empty;
+                await DisplayAlert("Login failed", "Username or Password is incorrect or not exists", "Okay", "Cancel");
+            }
+            }
+            catch (Exception ex)
+            {
+                debugText.Text = ex.Message;
             }
         }
-
-        bool AreCredentialsCorrect(User user)
-        {
-            return user.Username == Constants.Username && user.Password == Constants.Password;
-        }
+        
 
 
     }

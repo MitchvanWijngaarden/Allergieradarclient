@@ -7,13 +7,13 @@
         <ToolbarItem Text="Sign Up" Clicked="OnSignUpButtonClicked" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout VerticalOptions="StartAndExpand">
-            <Label Text="Username" />
-            <Entry x:Name="usernameEntry" Placeholder="username" />
-            <Label Text="Password" />
-            <Entry x:Name="passwordEntry" IsPassword="true" />
-            <Button Text="Login" Clicked="OnLoginButtonClicked" />
+
+        <StackLayout Padding="30" VerticalOptions="StartAndExpand">
+            <Entry x:Name="usernameEntry" Placeholder="Gebruikersnaam" />
+            <Entry x:Name="passwordEntry" Placeholder="Wachtwoord" IsPassword="true" />
+            <Button Text="Login" TextColor="White" Clicked="OnLoginButtonClicked" />
             <Label x:Name="messageLabel" />
+            <Label x:Name="debugText" TextColor="Red" IsVisible="true"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
