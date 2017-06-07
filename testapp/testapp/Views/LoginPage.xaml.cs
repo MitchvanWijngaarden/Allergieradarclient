@@ -19,6 +19,9 @@ namespace testapp.Views
         public LoginPage()
         {
             InitializeComponent();
+            usernameEntry.Text = Settings.Username;
+            passwordEntry.Text = Settings.Password;
+            
 
         }
 
@@ -36,6 +39,10 @@ namespace testapp.Views
             LoginViewModel services = new LoginViewModel();
             var getLoginDetails = await services.CheckLoginIfExists(usernameEntry.Text, passwordEntry.Text);
 
+
+                Settings.Username = usernameEntry.Text;
+                Settings.Password = passwordEntry.Text;
+
             if (getLoginDetails)
             {
                 await DisplayAlert("Login success", "You are login", "Okay", "Cancel");
@@ -50,6 +57,8 @@ namespace testapp.Views
                 debugText.Text = ex.Message;
             }
         }
+
+      
         
 
 
