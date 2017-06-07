@@ -2,7 +2,11 @@
 <head>
 
     <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type='text/javascript'>
+
+
+
      google.charts.load('current', {'packages': ['geochart']});
      google.charts.setOnLoadCallback(drawMarkersMap);
 
@@ -18,16 +22,29 @@
         region: 'NL',
         displayMode: 'markers',
         colorAxis: {colors: ['green', 'blue']},
-        keepAspectRatio: true
-      };
+        keepAspectRatio: false,
+	
+		     };
 
 
     var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
       chart.draw(data, options);
     };
+
+
+
     </script>
 </head>
 <body>
-    <div id="chart_div"></div>
+    <div id="chart_div" style=""></div>
 </body>
+
+<script>
+	//alert($(document).height());
+	var newHeight = $(document).height();
+	var newWidth = $(document).width();
+	$("#chart_div").css("height", newHeight);
+	$("#chart_div").css("width", newWidth);
+</script>
+
 </html>
