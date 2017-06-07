@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using testapp.Helpers;
 using testapp.Models;
 
 namespace testapp.Services
@@ -13,7 +14,7 @@ namespace testapp.Services
     {
         private static ComplaintService instance;
 
-        private static string apiUrl = "http://145.101.90.240:8080/api/complaint";
+        private static string apiUrl = SettingsSingleton.getApiUrl() + "complaints";
 
         private ComplaintService() { }
 
