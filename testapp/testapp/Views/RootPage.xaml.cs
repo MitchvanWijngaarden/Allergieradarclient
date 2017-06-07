@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using WorkingWithWebview;
 using Xamarin.Forms;
 
 namespace testapp.Views
@@ -20,7 +20,7 @@ namespace testapp.Views
 			var page2 = new ViewModels.MenuPageViewModel() { Title = "Informatie", Icon = "tab_about.png", TargetType = typeof(ItemsPage) };
             var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(KlachtenPage) };
             var loginPage = new ViewModels.MenuPageViewModel() { Title = "Inloggen", Icon = "itemIcon1.png", TargetType = typeof(LoginPage)};
-
+             
 
 
 			menuList.Add(page1);
@@ -31,7 +31,7 @@ namespace testapp.Views
 			navigationDrawerList.ItemsSource = menuList;
 
 
-			Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(HomePage)));
+			Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(LocalHtmlBaseUrl)));
 		}
 
 
