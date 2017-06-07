@@ -194,6 +194,8 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="BaseUrl_iOS.cs" />
+    <Compile Include="CustomList.cs" />
+    <Compile Include="CustomWebView.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\profile_generic.png" />
@@ -208,7 +210,6 @@
     <BundleResource Include="Resources\tab_feed%402x.png" />
     <BundleResource Include="Resources\tab_feed%403x.png" />
     <BundleResource Include="Resources\allergieradar_logo.png" />
-    <BundleResource Include="Resources\country.html" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\Allergie.txt" />
@@ -222,6 +223,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Resources\country.html" />
   </ItemGroup>
   <Import Project="..\testapp\testapp.projitems" Label="Shared" Condition="Exists('..\testapp\testapp.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
