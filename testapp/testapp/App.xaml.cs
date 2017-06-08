@@ -6,38 +6,28 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace testapp
 {
-	public partial class App : Application
-	{
+    public partial class App : Application
+    {
+
+        public static bool IsUserLoggedIn { get; set; }
+
         public App()
-		{
-			InitializeComponent();
+        {
+            InitializeComponent();
 
-			SetMainPage();
-		}
-
-		public static void SetMainPage()
-		{
-            Current.MainPage = new TabbedPage
+            if (!IsUserLoggedIn)
             {
-                Children =
-                {
-                    new NavigationPage(new ItemsPage())
-                    {
-                        Title = "Browse",
-                        Icon = Device.OnPlatform<string>("tab_feed.png",null,null)
-                    },
-                    new NavigationPage(new AboutPage())
-                    {
-                        Title = "About",
-                        Icon = Device.OnPlatform<string>("tab_about.png",null,null)
-                    },
-                    new NavigationPage(new KlachtenPage())
-                    {
-                        Title = "Klachten",
-                        Icon = Device.OnPlatform<string>("tab_about.png",null,null)
-                    },
-                }
-            };
+                MainPage = new Views.RootPage();
+            }
+            else
+            {
+                MainPage = new Views.RootPage();
+            }
+
+            
+
         }
-	}
+
+
+    }
 }

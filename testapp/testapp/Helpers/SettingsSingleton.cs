@@ -8,7 +8,7 @@ namespace testapp.Helpers
     {
         private static SettingsSingleton instance;
 
-        private static string apiUrl = "http://145.101.89.97:8080/api/";
+        private static string apiUrl = "http://10.0.3.2:8080/api/";
 
         private SettingsSingleton() { }
 
