@@ -1,6 +1,8 @@
 <html>
 <head>
-
+    <style>
+    html, body {margin: 0; height: 100%; overflow: hidden}
+    </style>
     <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type='text/javascript'>
@@ -22,7 +24,7 @@
         region: 'NL',
         displayMode: 'markers',
         colorAxis: {colors: ['green', 'blue']},
-        keepAspectRatio: false,
+        keepAspectRatio: true,
 	
 		     };
 
@@ -36,7 +38,11 @@
     </script>
 </head>
 <body>
-    <div id="chart_div" style=""></div>
+    <div id="chart_div" style="zoom: 2;
+         position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);"></div>
 </body>
 
 <script>

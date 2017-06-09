@@ -11,8 +11,11 @@ namespace WorkingWithWebview
 
 	public class MapPage : ContentPage
 	{
+       
 		public MapPage ()
 		{
+			NavigationPage.SetTitleIcon(this, "allergieradar_logo.png");
+            NavigationPage.HeightProperty(this,50);
 			var browser = new BaseUrlWebView (); // temporarily use this so we can custom-render in iOS
 
 			var htmlSource = new HtmlWebViewSource ();
@@ -21,11 +24,11 @@ namespace WorkingWithWebview
 <head>
 <link rel=""stylesheet"" href=""default.css"">
 <script>
-
+window.location.replace(""country.html"");
 </script>
 </head>
 <body>
-<iframe src=""country.html"" frameborder=""0"" style=""overflow: hidden; height: 100%; width: 100%"" height=""100%"" width=""100%""></iframe>
+
 </body>
 </html>";
 

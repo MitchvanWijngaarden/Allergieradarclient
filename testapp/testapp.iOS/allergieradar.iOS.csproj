@@ -226,11 +226,9 @@
     <Content Include="Data\Over AllergieRadar.txt" />
     <Content Include="Data\Rechten en Privacy.txt" />
     <Content Include="Data\Uitleg van de Allergieradar App.txt" />
+    <Content Include="Resources\country.html" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <AndroidAsset Include="Resources\country.html" />
-  </ItemGroup>
   <Import Project="..\testapp\testapp.projitems" Label="Shared" Condition="Exists('..\testapp\testapp.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
