@@ -25,7 +25,7 @@ namespace testapp.Views
         {
             Settings.Username = null;
             Settings.Password = null;
-            await DisplayAlert("gelukt!", "U bent nu ingelogd", "Ok");
+            await DisplayAlert("gelukt!", "U bent nu uitgelogd", "Ok");
 
         }
 
