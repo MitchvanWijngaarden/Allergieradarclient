@@ -72,6 +72,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainPageModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SignupViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\LoginPage.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LogoutPage.xaml.cs">
+      <DependentUpon>LogoutPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\SignUpPage.xaml.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\MapPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\RootPage.xaml.cs" />
@@ -143,5 +147,11 @@
     <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_761_587168.jpg" />
     <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_762_32f55c.jpg" />
     <None Include="$(MSBuildThisFileDirectory)ViewModels\BaseViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\LogoutPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

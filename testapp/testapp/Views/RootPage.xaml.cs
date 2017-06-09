@@ -22,10 +22,10 @@ namespace testapp.Views
 			var page2 = new ViewModels.MenuPageViewModel() { Title = "Informatie", Icon = "tab_about.png", TargetType = typeof(InfoPage) };
             var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(KlachtenPage) };
             var loginPage = new ViewModels.MenuPageViewModel() { Title = "Inloggen", Icon = "itemIcon1.png", TargetType = typeof(LoginPage)};
-            var logoutPage = new ViewModels.MenuPageViewModel() { Title = "Uitloggen", Icon = "itemIcon1.png", TargetType = typeof(MapPage) }; 
+            var logoutPage = new ViewModels.MenuPageViewModel() { Title = "Uitloggen", Icon = "itemIcon1.png,", TargetType = typeof(LogoutPage) };
 
 
-			menuList.Add(page1);
+            menuList.Add(page1);
 			menuList.Add(page2);
             menuList.Add(page3);
 
