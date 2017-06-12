@@ -9,18 +9,46 @@
 
         <Label Text="Neus" IsVisible="true"/>
 
-        <Slider x:Name="sliderNose" Minimum="0" Maximum="10" Value="0"  ValueChanged="OnSliderValueChanged" />
-        <Label x:Name="valueLabelNose" Text="0" />
+        <Grid Margin="0, 0, 0, 15">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="9.4*" />
+                <ColumnDefinition Width="0.6*" />
+            </Grid.ColumnDefinitions>
+            <Slider x:Name="sliderNose" Minimum="0" Maximum="10" Value="0"  ValueChanged="OnSliderValueChanged"  Grid.Row="0" Grid.Column="0"/>
+            <Label x:Name="valueLabelNose" Text="0" Grid.Row="0" Grid.Column="1"/>
+        </Grid>
 
         <Label Text="Longen" IsVisible="true"/>
+        
+        <Grid Margin="0, 0, 0, 15">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="9.4*" />
+                <ColumnDefinition Width="0.6*" />
+            </Grid.ColumnDefinitions>
+            <Slider x:Name="sliderLungs" Minimum="0" Maximum="10" Value="0"  ValueChanged="OnSliderValueChanged" Grid.Row="0" Grid.Column="0" />
+            <Label x:Name="valueLabelLungs" Text="0"  Grid.Row="0" Grid.Column="1"/>
+        </Grid>
 
-        <Slider x:Name="sliderLungs" Minimum="0" Maximum="10" Value="0"  ValueChanged="OnSliderValueChanged"/>
-        <Label x:Name="valueLabelLungs" Text="0" />
+ 
 
         <Label Text="Ogen" IsVisible="true" />
-
-        <Slider x:Name="sliderEyes" Minimum="0" Maximum="10" Value="0"  ValueChanged="OnSliderValueChanged"/>
-        <Label x:Name="valueLabelEyes" Text="0" />
+        <Grid Margin="0, 0, 0, 15">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="9.4*" />
+                <ColumnDefinition Width="0.6*" />
+            </Grid.ColumnDefinitions>
+            <Slider x:Name="sliderEyes" Minimum="0" Maximum="10" Value="0"  ValueChanged="OnSliderValueChanged"  Grid.Row="0" Grid.Column="0"/>
+            <Label x:Name="valueLabelEyes" Text="0" Grid.Row="0" Grid.Column="1"/>
+        </Grid>
 
         <StackLayout Orientation="Horizontal" Spacing="0">
             <Switch x:Name="medicineSwitch"/>
