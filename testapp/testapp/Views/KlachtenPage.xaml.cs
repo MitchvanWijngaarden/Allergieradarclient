@@ -27,6 +27,7 @@ namespace testapp.Views
             InitializeComponent();
             controller = new ComplaintsController(this);
             controller.CheckLocationEnabledAsync();
+            this.BackgroundColor = new Color(0, 0, 0, 0.4);
 
         }
 
@@ -43,7 +44,7 @@ namespace testapp.Views
             }
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void SubmitData(object sender, EventArgs e)
         {
 
             try
@@ -51,6 +52,7 @@ namespace testapp.Views
                 if (gpsEnabled)
                 {
                     SubmitData();
+                    Navigation.PopModalAsync();
                 } else
                 {
                     showAlert("Melding", "Uw locatie kan niet opgehaald worden, zet alstublieft uw GPS aan.");
@@ -63,6 +65,21 @@ namespace testapp.Views
 
         }
 
+        private void ReturnToMap(object sender, EventArgs e)
+        {
+
+            try
+            {
+                Navigation.PopModalAsync();
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+        }
+
+ 
         public void SubmitData()
         {
             try
@@ -89,6 +106,11 @@ namespace testapp.Views
         public void showAlert(String alertType, String alertMessage)
         {
             DisplayAlert(alertType, alertMessage, "OK");
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
