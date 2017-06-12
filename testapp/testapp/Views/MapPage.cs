@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using Xamarin.Forms;
 
 namespace WorkingWithWebview
@@ -15,7 +15,7 @@ namespace WorkingWithWebview
 		public MapPage ()
 		{
 			NavigationPage.SetTitleIcon(this, "allergieradar_logo.png");
-            NavigationPage.HeightProperty(this,50);
+
 			var browser = new BaseUrlWebView (); // temporarily use this so we can custom-render in iOS
 
 			var htmlSource = new HtmlWebViewSource ();
