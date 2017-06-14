@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using testapp.Helpers;
+using testapp.Views.Components;
 
 namespace testapp.Views
 {
@@ -16,7 +17,7 @@ namespace testapp.Views
 		public MapPage ()
 		{
 			NavigationPage.SetTitleIcon(this, "allergieradar_logo.png");
-            NavigationPage.HeightProperty(this,50);
+            //NavigationPage.HeightProperty(this,50);
 			var browser = new BaseUrlWebView (); // temporarily use this so we can custom-render in iOS
 
    
@@ -94,9 +95,3 @@ namespace testapp.Views
         }
 	}
 }
-
-
-﻿using System;
-using testapp.Views;
-using testapp.Views.Components;
-            //NavigationPage.HeightProperty(this,50);
