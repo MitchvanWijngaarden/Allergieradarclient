@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using WorkingWithWebview.Android;
+using testapp.Views;
 
 [assembly: Dependency (typeof (BaseUrl_Android))]
 namespace WorkingWithWebview.Android 

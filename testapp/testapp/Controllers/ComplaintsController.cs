@@ -52,7 +52,7 @@ namespace testapp.Controllers
         public void submitComplaint(Complaint complaint)
         {
             complaint.latitude = position.Latitude.ToString();
-            complaint.longtitude = position.Latitude.ToString();
+            complaint.longtitude = position.Longitude.ToString();
 
             ComplaintService.Instance.SubmitComplaintAsync(complaint);
             view.showAlert("Melding", "Uw klacht is succesvol verzonden.");
