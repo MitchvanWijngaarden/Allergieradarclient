@@ -2,8 +2,9 @@
 using testapp.Views;
 using testapp.Views.Components;
 using Xamarin.Forms;
+using testapp.Helpers;
 
-namespace WorkingWithWebview
+namespace testapp.Views
 {
 
 	public interface IBaseUrl { string Get(); }
@@ -20,7 +21,9 @@ namespace WorkingWithWebview
             //NavigationPage.HeightProperty(this,50);
 			var browser = new BaseUrlWebView (); // temporarily use this so we can custom-render in iOS
 
-			var htmlSource = new HtmlWebViewSource ();
+   
+
+            var htmlSource = new HtmlWebViewSource ();
 
 			htmlSource.Html = @"
                 <html>
@@ -48,7 +51,7 @@ namespace WorkingWithWebview
             var bottomRightLabel = new ActionButton();
             bottomRightLabel.Margin = 5;
 
-            var command = new Command(() => testGeval() );
+            var command = new Command(() => openModal   () );
 
             bottomRightLabel.Command = command;
 
@@ -72,13 +75,21 @@ namespace WorkingWithWebview
 
 
             simpleLayout.Children.Add(browser);
-            simpleLayout.Children.Add(bottomRightLabel);
+
+
+            if (!string.IsNullOrEmpty(Settings.Password))
+            {
+                simpleLayout.Children.Add(bottomRightLabel);
+            }
+
+
+
 
             Content = simpleLayout;
 
         }
 
-        async void testGeval()
+        async void openModal()
         {
             var detailPage = new KlachtenPage();
             await Navigation.PushModalAsync(detailPage);
