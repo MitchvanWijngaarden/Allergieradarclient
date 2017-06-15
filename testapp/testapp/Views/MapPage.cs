@@ -20,11 +20,11 @@ namespace testapp.Views
             //NavigationPage.HeightProperty(this,50);
 			var browser = new BaseUrlWebView (); // temporarily use this so we can custom-render in iOS
 
-   
 
-            var htmlSource = new HtmlWebViewSource ();
 
-			htmlSource.Html = @"
+            var htmlSource = new HtmlWebViewSource()
+            {
+                Html = @"
                 <html>
                     <head>
                         <link rel=""stylesheet"" href=""default.css"">
@@ -34,26 +34,26 @@ namespace testapp.Views
                     </head>
                     <body>
                     </body>
-                </html>";
+                </html>",
 
-			htmlSource.BaseUrl = DependencyService.Get<IBaseUrl> ().Get ();
+                BaseUrl = DependencyService.Get<IBaseUrl>().Get()
+            };
 
-
-			browser.Source = htmlSource;
+            browser.Source = htmlSource;
 
             AbsoluteLayout simpleLayout = new AbsoluteLayout
             {
                 VerticalOptions = LayoutOptions.FillAndExpand
             };
 
+            var bottomRightLabel = new ActionButton()
+            {
+                Margin = 5
+            };
 
-            var bottomRightLabel = new ActionButton();
-            bottomRightLabel.Margin = 5;
-
-            var command = new Command(() => openModal   () );
+            var command = new Command(() => OpenModal() );
 
             bottomRightLabel.Command = command;
-
 
             AbsoluteLayout.SetLayoutFlags(bottomRightLabel,
                 AbsoluteLayoutFlags.PositionProportional);
@@ -64,33 +64,23 @@ namespace testapp.Views
             AbsoluteLayout.SetLayoutBounds(bottomRightLabel,
                 new Rectangle(1f, 1f, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
 
-
-
             AbsoluteLayout.SetLayoutFlags(browser,
                 AbsoluteLayoutFlags.All);
 
             AbsoluteLayout.SetLayoutBounds(browser,
                 new Rectangle(0, 0, 1, 1));
 
-
             simpleLayout.Children.Add(browser);
 
-
             if (!string.IsNullOrEmpty(Settings.Password))
-            {
                 simpleLayout.Children.Add(bottomRightLabel);
-            }
-
-
-
 
             Content = simpleLayout;
-
         }
 
-        async void openModal()
+        async void OpenModal()
         {
-            var detailPage = new KlachtenPage();
+            var detailPage = new ComplaintFormPage();
             await Navigation.PushModalAsync(detailPage);
         }
 	}

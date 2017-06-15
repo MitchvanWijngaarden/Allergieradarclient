@@ -20,7 +20,7 @@ namespace testapp.Views
 
 			var page1 = new ViewModels.MenuPageViewModel() { Title = "Home", Icon = "itemIcon1.png", TargetType = typeof(MapPage) };
 			var page2 = new ViewModels.MenuPageViewModel() { Title = "Informatie", Icon = "tab_about.png", TargetType = typeof(InfoPage) };
-            var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(KlachtenPage) };
+            var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(ComplaintFormPage) };
             var loginPage = new ViewModels.MenuPageViewModel() { Title = "Inloggen", Icon = "itemIcon1.png", TargetType = typeof(LoginPage)};
             var logoutPage = new ViewModels.MenuPageViewModel() { Title = "Uitloggen", Icon = "itemIcon1.png,", TargetType = typeof(LogoutPage) };
 
@@ -62,7 +62,7 @@ namespace testapp.Views
             menuList.Clear();
             var page1 = new ViewModels.MenuPageViewModel() { Title = "Home", Icon = "itemIcon1.png", TargetType = typeof(MapPage) };
             var page2 = new ViewModels.MenuPageViewModel() { Title = "Informatie", Icon = "tab_about.png", TargetType = typeof(InfoPage) };
-            var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(KlachtenPage) };
+            var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(ComplaintFormPage) };
             navigationDrawerList.ItemsSource = menuList;
 
 

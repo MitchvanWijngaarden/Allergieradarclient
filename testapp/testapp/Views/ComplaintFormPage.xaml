@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="testapp.Views.ComplaintFormPage"
+             Title="Klachten">
+
+    <Image Source="background.png" Aspect="AspectFit" />
+
+    <Frame HorizontalOptions="LayoutOptions.Center" WidthRequest="300" VerticalOptions="LayoutOptions.Center" HeightRequest="375" BackgroundColor="White">
+        <StackLayout>
+            <Label Text="Klacht doogeven" IsVisible="true"/>
+
+            <Label Text="Neus" IsVisible="true"/>
+
+            <Grid Margin="0, 0, 0, 15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="9.4*" />
+                    <ColumnDefinition Width="0.6*" />
+                </Grid.ColumnDefinitions>
+                <Slider x:Name="sliderNose" Minimum="0" Maximum="10" Value="0"  ValueChanged="OnSliderValueChanged"  Grid.Row="0" Grid.Column="0"/>
+                <Label x:Name="valueLabelNose" Text="0" Grid.Row="0" Grid.Column="1"/>
+            </Grid>
+
+            <Label Text="Longen" IsVisible="true"/>
+
+            <Grid Margin="0, 0, 0, 15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="9.4*" />
+                    <ColumnDefinition Width="0.6*" />
+                </Grid.ColumnDefinitions>
+                <Slider x:Name="sliderLungs" Minimum="0" Maximum="10" Value="0"  ValueChanged="OnSliderValueChanged" Grid.Row="0" Grid.Column="0" />
+                <Label x:Name="valueLabelLungs" Text="0"  Grid.Row="0" Grid.Column="1"/>
+            </Grid>
+
+
+
+            <Label Text="Ogen" IsVisible="true" />
+            <Grid Margin="0, 0, 0, 15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="9.4*" />
+                    <ColumnDefinition Width="0.6*" />
+                </Grid.ColumnDefinitions>
+                <Slider x:Name="sliderEyes" Minimum="0" Maximum="10" Value="0"  ValueChanged="OnSliderValueChanged"  Grid.Row="0" Grid.Column="0"/>
+                <Label x:Name="valueLabelEyes" Text="0" Grid.Row="0" Grid.Column="1"/>
+            </Grid>
+
+            <StackLayout Orientation="Horizontal" Spacing="0">
+                <Switch x:Name="medicineSwitch"/>
+                <Label Text="Ik heb de afgelopen 24 uur medicijnen voor hooikoorts gebruikt."/>
+            </StackLayout>
+
+            <Grid Margin="0, 0, 0, 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.33*" />
+                    <ColumnDefinition Width="0.33*" />
+                    <ColumnDefinition Width="0.33*" />
+                </Grid.ColumnDefinitions>
+                <Button Text="Annuleer" BackgroundColor="Transparent" Clicked="ReturnToMap" FontSize="12" Grid.Row="0" Grid.Column="1"/>
+                <Button Text="Verstuur" BackgroundColor="Transparent" Clicked="SubmitData" FontSize="12" Grid.Row="0" Grid.Column="2"/>
+
+            </Grid>
+
+            <Label x:Name ="debugText" TextColor="Red" IsVisible="true" />
+
+
+        </StackLayout>
+
+    </Frame>
+</ContentPage>

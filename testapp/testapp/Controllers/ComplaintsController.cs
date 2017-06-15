@@ -12,10 +12,10 @@ namespace testapp.Controllers
     class ComplaintsController
     {
         private IGeolocator locator;
-        private KlachtenPage view;
+        private ComplaintFormPage view;
         private Position position;
 
-        public ComplaintsController(KlachtenPage view)
+        public ComplaintsController(ComplaintFormPage view)
         {
             this.view = view;
 
@@ -49,13 +49,13 @@ namespace testapp.Controllers
             }
         }
 
-        public void submitComplaint(Complaint complaint)
+        public void SubmitComplaint(Complaint complaint)
         {
             complaint.latitude = position.Latitude.ToString();
             complaint.longtitude = position.Longitude.ToString();
 
             ComplaintService.Instance.SubmitComplaintAsync(complaint);
-            view.showAlert("Melding", "Uw klacht is succesvol verzonden.");
+            view.ShowAlert("Melding", "Uw klacht is succesvol verzonden.");
 
         }
     }
