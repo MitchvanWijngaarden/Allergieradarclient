@@ -60,6 +60,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ObservableObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ObservableRangeCollection.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\MessengingCenterAlert.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Components\ActionButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\KlachtenPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
