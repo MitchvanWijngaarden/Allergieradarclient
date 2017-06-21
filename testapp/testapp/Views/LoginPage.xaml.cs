@@ -9,15 +9,22 @@ using Xamarin.Forms.Xaml;
 
 using testapp.Models;
 using testapp.ViewModels;
+using testapp.Helpers;
 
 namespace testapp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
+        public string Username {  get; set;  }
+        public string Password { get; set; }
         public LoginPage()
         {
             InitializeComponent();
+            Username = Settings.Username;
+            Password = Settings.Password;
+         
+
 
         }
 
@@ -26,32 +33,45 @@ namespace testapp.Views
             await Navigation.PushAsync(new SignUpPage());
         }
 
-        async void OnLoginButtonClicked(object sender, EventArgs e)
+        private async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            var user = new User
+            try
             {
-                Username = usernameEntry.Text,
-                Password = passwordEntry.Text
-            };
 
-            var isValid = AreCredentialsCorrect(user);
-            if (isValid)
-            {
-                App.IsUserLoggedIn = true;
-                Navigation.InsertPageBefore(new MainPageModel(), this);
-                await Navigation.PopAsync();
+
+                LoginViewModel services = new LoginViewModel();
+                var getLoginDetails = await services.CheckLoginIfExists(usernameEntry.Text, passwordEntry.Text);
+                // var accesstoken = await services.CheckLoginIfExists(usernameEntry.Text, passwordEntry.Text);
+                //Settings.AccessToken = accesstoken;
+
+
+                if (getLoginDetails)
+                {
+                    await DisplayAlert("gelukt!", "U bent nu ingelogd", "Ok");
+
+                    Settings.Username = usernameEntry.Text;
+                    Settings.Password = passwordEntry.Text;
+
+
+                    await Navigation.PushModalAsync(new RootPage());
+                    // await RootPage.ChangeLoginButton();
+
+                    
+
+                }
+                else
+                {
+                    await DisplayAlert("Inloggen mislukt!", "Gebruikersnaam en/of wachtwoord niet correct", "Ok");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                messageLabel.Text = "Login failed";
-                passwordEntry.Text = string.Empty;
+                Console.WriteLine(ex);
             }
         }
 
-        bool AreCredentialsCorrect(User user)
-        {
-            return user.Username == Constants.Username && user.Password == Constants.Password;
-        }
+
+
 
 
     }

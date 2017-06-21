@@ -1,6 +1,10 @@
 ﻿{
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
+    "Newtonsoft.Json": "10.0.2",
+    "System.Net.Http": "4.3.2",
+    "Xam.Plugin.Geolocator": "3.0.4",
+    "Xam.Plugins.Settings": "2.5.8",
     "Xamarin.Forms": "2.3.4.224"
   },
   "frameworks": {
