@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:custom="clr-namespace:XFormsRadioButton.CustomControls;assembly=XFormsRadioButton"
+             x:Class="testapp.Views.Vragenlijst">
+    <StackLayout>
+        <Label FontSize="Large" Text="Vraag 1" />
+        <Label Text="Heeft u wel eens last van neusklachten die langer dan 10 dagen aanhouden, zoals
+niezen, waterige loopneus, jeukende neus, of een verstopte neus. Daarbij gaat het niet om
+om neusklachten waarbij groen snot optreedt of die gepaard gaan met koorts (temperatuur
+van hoger dan 38 o C)." />
+        <Label Text="Ja" />
+        <Label Text="Nee" />
+        <TableView>
+            <TableRoot>
+                <TableSection>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Button Text="Vorige vraag" Clicked="Button_Back" />
+                            <Button Text="Volgende vraag" Clicked="Button_Next" HorizontalOptions="EndAndExpand" />
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </StackLayout>
+</ContentPage>
