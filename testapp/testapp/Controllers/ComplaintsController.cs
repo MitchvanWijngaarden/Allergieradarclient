@@ -46,7 +46,6 @@ namespace testapp.Controllers
             }
         }
 
- 
         public void SubmitComplaint(Complaint complaint)
         {
             complaint.latitude = position.Latitude.ToString();

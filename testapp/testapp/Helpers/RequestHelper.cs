@@ -1,6 +1,5 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -20,7 +19,7 @@ namespace testapp.Helpers
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(credentials));
         }
 
-        public async void PostDataAsync(object o, string location)
+        public async void PostDataAsync(object o, string apiLocation)
         {
             HttpResponseMessage response;
 
@@ -32,7 +31,7 @@ namespace testapp.Helpers
                     request = new StringContent(messageBody);
                     request.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
-                    response = await httpClient.PostAsync(new Uri(location), request);
+                    response = await httpClient.PostAsync(new Uri(apiLocation), request);
                 }
                 catch (Exception ex)
                 {
@@ -41,20 +40,20 @@ namespace testapp.Helpers
             }
         }
 
-        public async System.Threading.Tasks.Task<HttpResponseMessage> GetDataAsync(string location)
+        public string GetData(string apiLocation)
         {
             using (httpClient)
             {
                 HttpResponseMessage response = null;
                 try
                 {
-                    response = await httpClient.GetAsync(location);
+                    response = httpClient.GetAsync(apiLocation).Result;
                 }
                 catch (Exception ex)
                 {
                     Debug.Write(ex.Message);
                 }
-                return response;
+                return response.Content.ReadAsStringAsync().Result;
             }
         }
     }

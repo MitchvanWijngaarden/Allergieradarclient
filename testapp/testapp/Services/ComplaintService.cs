@@ -1,4 +1,6 @@
-﻿using testapp.Helpers;
+﻿using Java.Lang;
+using System.Net.Http;
+using testapp.Helpers;
 using testapp.Models;
 
 namespace testapp.Services
@@ -9,7 +11,11 @@ namespace testapp.Services
 
         private static string apiUrl = SettingsSingleton.getApiUrl() + "complaints";
 
-        private ComplaintService() { }
+        private RequestHelper requestHelper;
+
+        private ComplaintService() {
+            requestHelper = new RequestHelper();
+        }
 
         public static ComplaintService Instance
         {
@@ -25,41 +31,20 @@ namespace testapp.Services
 
         public void SubmitComplaint(Complaint complaint)
         {
-            RequestHelper requestHelper = new RequestHelper();
             requestHelper.PostDataAsync(complaint, apiUrl);
         }
 
 
-        /*public async void getAllComplaints()
+        public string GetAllComplaints()
         {
             try
+            {   
+                return requestHelper.GetData(apiUrl);
+            }
+            catch (Exception ex)
             {
-               // List<Complaint> complaintList = new List<Complaint>();
-
-                HttpClient client = new HttpClient();
-
-                var byteArray = Encoding.ASCII.GetBytes("test:test");
-                client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray));
-
-                HttpResponseMessage response = await client.GetAsync(apiUrl);
-                HttpContent content = response.Content;
-
-                // ... Check Status Code                                
-                Console.WriteLine("Response StatusCode: " + (int)response.StatusCode);
-
-                // ... Read the string.
-                string result = await content.ReadAsStringAsync();
-
-                //Complaint m = JsonConvert.DeserializeObject<Complaint>(result);
-
-                //complaintList.Add(m);
-
-                Console.WriteLine("We hebben het volgende ontvangen:" + result);
-            } catch (Exception ex)
-            {
-                Console.WriteLine(ex);
-            }*/
-            
-
+                return ex.Message;
+            }
+        }
     }
 }
