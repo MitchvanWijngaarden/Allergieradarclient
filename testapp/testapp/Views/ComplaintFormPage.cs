@@ -1,26 +1,16 @@
-
-﻿using System;
-using System.Text;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Plugin.Geolocator;
-using Plugin.Geolocator.Abstractions;
 using testapp.Models;
-using Newtonsoft.Json;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using testapp.Services;
 using testapp.Controllers;
+using System.Diagnostics;
 
 namespace testapp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ComplaintFormPage : ContentPage
     {
-        IGeolocator locator;
-        Position position = null;
         private ComplaintsController controller;
-        public Boolean gpsEnabled { get; set; }
 
         public ComplaintFormPage()
         {
@@ -28,53 +18,41 @@ namespace testapp.Views
             controller = new ComplaintsController(this);
             controller.CheckLocationEnabledAsync();
             this.BackgroundColor = new Color(0, 0, 0, 0.4);
-
         }
 
         void OnSliderValueChanged(object sender, ValueChangedEventArgs args) {
-            if (((Slider)sender) == sliderNose )
-            {
-                valueLabelNose.Text = Convert.ToInt16(((Slider)sender).Value).ToString();
-            } else if(((Slider)sender) == sliderLungs)
-            {
-                valueLabelLungs.Text = Convert.ToInt16(((Slider)sender).Value).ToString();
-            } else if (((Slider)sender) == sliderEyes)
-            {
-                valueLabelEyes.Text = Convert.ToInt16(((Slider)sender).Value).ToString();
-            }
+            valueLabelNose.Text = Convert.ToInt16(((Slider)sliderNose).Value).ToString();
+            valueLabelLungs.Text = Convert.ToInt16(((Slider)sliderLungs).Value).ToString();
+            valueLabelEyes.Text = Convert.ToInt16(((Slider)sliderEyes).Value).ToString();
         }
 
-        private void SubmitData(object sender, EventArgs e)
+        public void CheckGPSEnabled(object sender, EventArgs e)
         {
-
             try
             {
-                if (gpsEnabled)
-                {
-                    SubmitData();
-                    Navigation.PopModalAsync();
-                } else
+                if (!controller.gpsEnabled)
                 {
                     ShowAlert("Melding", "Uw locatie kan niet opgehaald worden, zet alstublieft uw GPS aan.");
+                    return;
                 }
-
-            } catch (Exception ex)
+                SubmitData();
+            }
+            catch (Exception ex)
             {
- 
+                debugText.Text = ex.Message;
             }
 
         }
 
-        private void ReturnToMap(object sender, EventArgs e)
+        private void ReturnToMap()
         {
-
             try
             {
                 Navigation.PopModalAsync();
             }
             catch (Exception ex)
             {
-
+                Debug.Write(ex.Message);
             }
 
         }
@@ -84,21 +62,21 @@ namespace testapp.Views
         {
             try
             {
-
                 Complaint complaint = new Complaint()
                 {
                     eyes = Convert.ToInt16(sliderEyes.Value),
                     nose = Convert.ToInt16(sliderNose.Value),
                     lungs = Convert.ToInt16(sliderLungs.Value),
-                    medicine = Convert.ToInt16(medicineSwitch.IsToggled),
+                    medicine = Convert.ToByte(medicineSwitch.IsToggled),
                 };
 
                 controller.SubmitComplaint(complaint);
+                ReturnToMap();
                 
             }
             catch (Exception ex)
             {
-                debugText.Text = ex.Message;
+                Debug.Write(ex.Message);
             }
         }
 

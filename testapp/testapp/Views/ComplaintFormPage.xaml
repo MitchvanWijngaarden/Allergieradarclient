@@ -68,12 +68,11 @@
                     <ColumnDefinition Width="0.33*" />
                 </Grid.ColumnDefinitions>
                 <Button Text="Annuleer" BackgroundColor="Transparent" Clicked="ReturnToMap" FontSize="12" Grid.Row="0" Grid.Column="1"/>
-                <Button Text="Verstuur" BackgroundColor="Transparent" Clicked="SubmitData" FontSize="12" Grid.Row="0" Grid.Column="2"/>
+                <Button Text="Verstuur" BackgroundColor="Transparent" Clicked="CheckGPSEnabled" FontSize="12" Grid.Row="0" Grid.Column="2"/>
 
             </Grid>
 
-            <Label x:Name ="debugText" TextColor="Red" IsVisible="true" />
-
+            <Label x:Name="debugText"/>
 
         </StackLayout>
 

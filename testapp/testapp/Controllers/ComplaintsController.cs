@@ -6,6 +6,7 @@ using System.Text;
 using testapp.Views;
 using testapp.Models;
 using testapp.Services;
+using System.Diagnostics;
 
 namespace testapp.Controllers
 {
@@ -14,49 +15,45 @@ namespace testapp.Controllers
         private IGeolocator locator;
         private ComplaintFormPage view;
         private Position position;
+        public bool gpsEnabled { get; set; }
 
         public ComplaintsController(ComplaintFormPage view)
         {
             this.view = view;
 
-            ComplaintService.Instance.getAllComplaints();
 
         }
 
-        public async System.Threading.Tasks.Task<bool> CheckLocationEnabledAsync()
+        public async void CheckLocationEnabledAsync()
         {
             try
             {
                 locator = CrossGeolocator.Current;
                 locator.DesiredAccuracy = 50;
 
-                if (locator.IsGeolocationEnabled)
+                if (!locator.IsGeolocationEnabled)
                 {
-                    position = await locator.GetPositionAsync(10000);
-                    view.gpsEnabled = true;
-                    return true;
+                    gpsEnabled = false;
+                    return;
                 }
-                else
-                {
-                    view.gpsEnabled = false;
-                    return false;
-                }
+                position = await locator.GetPositionAsync(10000);
+                gpsEnabled = true;
             }
             catch (Exception le) 
             {
-                view.gpsEnabled = false;
-                return false;
+                Debug.Write(le.Message);
+                gpsEnabled = false;
             }
         }
 
+ 
         public void SubmitComplaint(Complaint complaint)
         {
             complaint.latitude = position.Latitude.ToString();
             complaint.longtitude = position.Longitude.ToString();
 
-            ComplaintService.Instance.SubmitComplaintAsync(complaint);
+            ComplaintService.Instance.SubmitComplaint(complaint);
             view.ShowAlert("Melding", "Uw klacht is succesvol verzonden.");
-
         }
     }
 }
