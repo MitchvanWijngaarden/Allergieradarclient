@@ -20,8 +20,6 @@ namespace testapp.Controllers
         public ComplaintsController(ComplaintFormPage view)
         {
             this.view = view;
-
-
         }
 
         public async void CheckLocationEnabledAsync()

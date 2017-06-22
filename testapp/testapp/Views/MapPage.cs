@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using testapp.Helpers;
 using testapp.Views.Components;
+using testapp.Models;
 
 namespace testapp.Views
 {
@@ -72,7 +73,7 @@ namespace testapp.Views
 
             simpleLayout.Children.Add(browser);
 
-            if (!string.IsNullOrEmpty(Settings.Password))
+            if (!string.IsNullOrEmpty(LoggedinUser.Password))
                 simpleLayout.Children.Add(bottomRightLabel);
 
             Content = simpleLayout;

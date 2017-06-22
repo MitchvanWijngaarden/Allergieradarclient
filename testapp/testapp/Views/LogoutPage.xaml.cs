@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using testapp.Helpers;
+using testapp.Models;
 
 namespace testapp.Views
 {
@@ -23,8 +24,9 @@ namespace testapp.Views
 
         private async void DeleteLoginData()
         {
-            Settings.Username = null;
-            Settings.Password = null;
+            LoggedinUser.Username = null;
+            LoggedinUser.Password = null;
+            LoggedinUser.AccessToken = null;
             await DisplayAlert("gelukt!", "U bent nu uitgelogd", "Ok");
 
         }

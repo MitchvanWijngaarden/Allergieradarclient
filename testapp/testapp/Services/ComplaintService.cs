@@ -9,7 +9,7 @@ namespace testapp.Services
     {
         private static ComplaintService instance;
 
-        private static string apiUrl = SettingsSingleton.getApiUrl() + "complaints";
+        private static string apiUrl = "complaints";
 
         private RequestHelper requestHelper;
 
