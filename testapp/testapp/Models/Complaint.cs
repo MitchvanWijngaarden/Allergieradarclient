@@ -11,7 +11,7 @@ namespace testapp.Models
         public int eyes { get; set; }
         public int lungs { get; set; }
         public int nose { get; set; }
-        public int medicine { get; set; }
+        public byte medicine { get; set; }
         public String latitude { get; set; }
         public String longtitude { get; set; }
     }
