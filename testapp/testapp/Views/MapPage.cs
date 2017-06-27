@@ -49,19 +49,36 @@ namespace testapp.Views
 
             var bottomRightLabel = new ActionButton()
             {
-                Margin = 5
+                Margin = 20,
+                FillColor = Color.FromHex("#2196F3")
+
             };
 
             var command = new Command(() => OpenModal() );
 
             bottomRightLabel.Command = command;
 
-            AbsoluteLayout.SetLayoutFlags(bottomRightLabel,
-                AbsoluteLayoutFlags.PositionProportional);
+            Label globalComplaintScore = new Label()
+            {
+                Margin = 15,
+                Text = "10",
+                FontSize = 40,
+                TextColor = Color.White,
+                IsVisible = true
+            };
+
+            Label globalComplaintText = new Label()
+            {
+                Margin = 15,
+                Text = "Landelijke\nklachtenscore",
+                FontSize = 16,
+                TextColor = Color.White,
+                IsVisible = true
+            };
 
             AbsoluteLayout.SetLayoutFlags(bottomRightLabel,
                 AbsoluteLayoutFlags.PositionProportional);
-
+    
             AbsoluteLayout.SetLayoutBounds(bottomRightLabel,
                 new Rectangle(1f, 1f, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
 
@@ -71,7 +88,16 @@ namespace testapp.Views
             AbsoluteLayout.SetLayoutBounds(browser,
                 new Rectangle(0, 0, 1, 1));
 
+            AbsoluteLayout.SetLayoutBounds(globalComplaintScore,
+                new Rectangle(0f, 0f, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
+
+            AbsoluteLayout.SetLayoutBounds(globalComplaintText,
+                new Rectangle(0f, 50f, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
+
+
             simpleLayout.Children.Add(browser);
+            simpleLayout.Children.Add(globalComplaintScore);
+            simpleLayout.Children.Add(globalComplaintText);
 
             if (!string.IsNullOrEmpty(LoggedinUser.Password))
                 simpleLayout.Children.Add(bottomRightLabel);
@@ -83,6 +109,11 @@ namespace testapp.Views
         {
             var detailPage = new ComplaintFormPage();
             await Navigation.PushModalAsync(detailPage);
+        }
+
+        void GetGlobalComplaintScore()
+        {
+
         }
 	}
 }

@@ -1,5 +1,4 @@
-﻿using Java.Lang;
-using System.Net.Http;
+﻿using System;
 using testapp.Helpers;
 using testapp.Models;
 
