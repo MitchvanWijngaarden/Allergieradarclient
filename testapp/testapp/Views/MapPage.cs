@@ -3,6 +3,8 @@ using Xamarin.Forms;
 using testapp.Helpers;
 using testapp.Views.Components;
 using testapp.Models;
+using testapp.Controllers;
+using System.Diagnostics;
 
 namespace testapp.Views
 {
@@ -12,10 +14,12 @@ namespace testapp.Views
 	// required temporarily for iOS, due to BaseUrl bug
 	public class BaseUrlWebView : WebView { }
 
-	public class MapPage : ContentPage
+
+    public class MapPage : ContentPage
 	{
-       
-		public MapPage ()
+        private Label globalComplaintScore;
+
+        public MapPage ()
 		{
 			NavigationPage.SetTitleIcon(this, "allergieradar_logo.png");
             //NavigationPage.HeightProperty(this,50);
@@ -58,7 +62,7 @@ namespace testapp.Views
 
             bottomRightLabel.Command = command;
 
-            Label globalComplaintScore = new Label()
+            globalComplaintScore = new Label()
             {
                 Margin = 15,
                 Text = "10",
@@ -66,6 +70,8 @@ namespace testapp.Views
                 TextColor = Color.White,
                 IsVisible = true
             };
+
+            GetGlobalComplaintScore();
 
             Label globalComplaintText = new Label()
             {
@@ -113,7 +119,47 @@ namespace testapp.Views
 
         void GetGlobalComplaintScore()
         {
+            ComplaintsController controller = new ComplaintsController();
 
+            int totalComplaints = 0;
+            int totalLungs = 0;
+            int totalEyes = 0;
+            int totalNose = 0;
+
+            try
+            {
+                foreach (Complaint complaint in controller.GetComplaints())
+                {
+                    string format = "dd-MM-yyyy";
+                    var todayDate = DateTime.Now.ToString(format);
+                    var complaintDate = complaint.date.ToString(format);
+
+                    if (complaintDate == todayDate)
+                    {
+                        totalNose += complaint.nose;
+                        totalEyes += complaint.eyes;
+                        totalLungs += complaint.lungs;
+
+                        totalComplaints++;
+                    }
+
+                }
+                int averageLungs = (totalLungs / totalComplaints);
+                int averageEyes = (totalEyes / totalComplaints);
+                int averageNose = (totalNose / totalComplaints);
+
+                Debug.WriteLine("Average lungs : " + averageLungs);
+                Debug.WriteLine("Average eyes: " + averageEyes);
+                Debug.WriteLine("Average nose : " + averageNose);
+
+                int totalAverage = (averageEyes + averageLungs + averageNose) / 3;
+
+                globalComplaintScore.Text = totalAverage.ToString();
+            } catch (Exception ex)
+            {
+                Debug.WriteLine("FFF " + ex);
+            }
+            
         }
 	}
 }

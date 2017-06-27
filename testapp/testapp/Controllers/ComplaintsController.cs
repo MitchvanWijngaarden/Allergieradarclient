@@ -7,6 +7,7 @@ using testapp.Views;
 using testapp.Models;
 using testapp.Services;
 using System.Diagnostics;
+using Newtonsoft.Json;
 
 namespace testapp.Controllers
 {
@@ -16,10 +17,15 @@ namespace testapp.Controllers
         private ComplaintFormPage view;
         private Position position;
         public bool gpsEnabled { get; set; }
+        List<Complaint> list = new List<Complaint>();
 
         public ComplaintsController(ComplaintFormPage view)
         {
             this.view = view;
+        }
+
+        public ComplaintsController()
+        {
         }
 
         public async void CheckLocationEnabledAsync()
@@ -52,5 +58,23 @@ namespace testapp.Controllers
             ComplaintService.Instance.SubmitComplaint(complaint);
             view.ShowAlert("Melding", "Uw klacht is succesvol verzonden.");
         }
+
+        public List<Complaint> GetComplaints()
+        {
+
+            var json = ComplaintService.Instance.GetAllComplaints();
+
+            IEnumerable<Complaint> result = JsonConvert.DeserializeObject<IEnumerable<Complaint>>(json);
+
+
+            foreach (Complaint c in result)
+            {
+                list.Add(c);
+            }
+
+            return list;
+
+        }
+
     }
 }

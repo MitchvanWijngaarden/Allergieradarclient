@@ -7,7 +7,7 @@ namespace testapp.Models
     class Complaint
     {
         public int complaintID { get; set; }
-        //public DateTime date { get; set; }
+        public DateTime date { get; set; }
         public int eyes { get; set; }
         public int lungs { get; set; }
         public int nose { get; set; }
