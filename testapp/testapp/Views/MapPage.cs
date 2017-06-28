@@ -17,11 +17,15 @@ namespace testapp.Views
 
     public class MapPage : ContentPage
 	{
-        private Label globalComplaintScore;
+
+    
+	
+		    private Label globalComplaintScore;
 
         public MapPage ()
 		{
-			NavigationPage.SetTitleIcon(this, "allergieradar_logo.png");
+			NavigationPage.SetTitleIcon(this, "allergieradar_tab.png");
+
             //NavigationPage.HeightProperty(this,50);
 			var browser = new BaseUrlWebView (); // temporarily use this so we can custom-render in iOS
 

@@ -47,6 +47,9 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\AboutPages\Rechten_en_Privacy.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\RssFeedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
@@ -108,6 +111,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\AboutPages\Rechten_en_Privacy.xaml.cs">
       <DependentUpon>Rechten_en_Privacy.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\RssFeedPage.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\RssFeedViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\RssItemViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModelBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
