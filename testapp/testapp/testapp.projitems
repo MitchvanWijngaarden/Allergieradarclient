@@ -56,15 +56,17 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Controllers\ComplaintsController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\RequestHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Settings.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\SettingsSingleton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\BaseDataObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\LoggedinUser.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\LoginService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ObservableObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ObservableRangeCollection.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\MessengingCenterAlert.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\Components\ActionButton.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\KlachtenPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ComplaintFormPage.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MenuPageViewModel.cs" />
@@ -121,7 +123,7 @@
     <Folder Include="$(MSBuildThisFileDirectory)Views\AboutPages\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\KlachtenPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ComplaintFormPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

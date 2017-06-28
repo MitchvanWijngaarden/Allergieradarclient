@@ -21,11 +21,8 @@ namespace testapp.Views
         public LoginPage()
         {
             InitializeComponent();
-            Username = Settings.Username;
-            Password = Settings.Password;
-         
-
-
+            Username = LoggedinUser.Username;
+            Password = LoggedinUser.Password;
         }
 
         async void OnSignUpButtonClicked(object sender, EventArgs e)
@@ -49,8 +46,9 @@ namespace testapp.Views
                 {
                     await DisplayAlert("gelukt!", "U bent nu ingelogd", "Ok");
 
-                    Settings.Username = usernameEntry.Text;
-                    Settings.Password = passwordEntry.Text;
+                    LoggedinUser.Username = usernameEntry.Text;
+                    LoggedinUser.Password = passwordEntry.Text;
+                    LoggedinUser.AccessToken = usernameEntry.Text + ":" + passwordEntry.Text;
 
 
                     await Navigation.PushModalAsync(new RootPage());
