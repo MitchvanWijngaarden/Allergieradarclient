@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿﻿﻿using System;
 using System.Collections.Generic;
 using testapp.Helpers;
 using testapp.Models;
@@ -21,12 +21,9 @@ namespace testapp.Views
 
 			var page1 = new ViewModels.MenuPageViewModel() { Title = "Home", Icon = "itemIcon1.png", TargetType = typeof(MapPage) };
 			var page2 = new ViewModels.MenuPageViewModel() { Title = "Informatie", Icon = "tab_about.png", TargetType = typeof(InfoPage) };
-<<<<<<< HEAD
-            var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(KlachtenPage) };
+            var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(ComplaintFormPage) };
             var news = new ViewModels.MenuPageViewModel() { Title = "Nieuws", Icon = "itemIcon1.png", TargetType = typeof(RssFeedPage) };
-=======
             //var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(ComplaintFormPage) };
->>>>>>> faa84ec775e92f91e6eca68cd64fdbafac250a14
             var loginPage = new ViewModels.MenuPageViewModel() { Title = "Inloggen", Icon = "itemIcon1.png", TargetType = typeof(LoginPage)};
             var logoutPage = new ViewModels.MenuPageViewModel() { Title = "Uitloggen", Icon = "itemIcon1.png,", TargetType = typeof(LogoutPage) };
 

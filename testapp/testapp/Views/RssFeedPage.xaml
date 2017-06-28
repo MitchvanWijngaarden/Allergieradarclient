@@ -12,7 +12,7 @@
     
     <ContentPage.Resources>
         <ResourceDictionary>
-            <RssFeedViewModel x:Key="rssFeed"
+            <local:RssFeedViewModel x:Key="rssFeed"
                     Url="http://earthobservatory.nasa.gov/Feeds/rss/eo_iotd.rss" />
         </ResourceDictionary>
     </ContentPage.Resources>
