@@ -13,14 +13,14 @@
 	        google.load('visualization', '1', {packages: ['geochart']});
 			$(function() {
     		// when document loads, grab the json
-			$.getJSON('http://145.101.90.213:8080/api/map', function(data) {
+			$.getJSON('http://145.101.89.162:8080/api/map', function(data) {
 				// once grabbed, we run this callback
 
 				// setup the new map and its variables
 				var map = new google.visualization.DataTable();
 					map.addRows(data.length);  // length gives us the number of results in our returned data
 					map.addColumn('string', 'Stad');
-	      		map.addColumn('number', 'Gemiddelde klacht');
+	      			map.addColumn('number', 'Gemiddelde klacht');
 
 				// now we need to build the map data, loop over each result
 				$.each(data, function(i,v) {

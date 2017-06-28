@@ -217,6 +217,7 @@ C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.And
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\allergieradar.Android.csprojResolveAssemblyReference.cache
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.App.xaml.g.cs
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.RootPage.xaml.g.cs
 C:\Users\alldocube\Desktop\Allergieradar\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.LoginPage.xaml.g.cs

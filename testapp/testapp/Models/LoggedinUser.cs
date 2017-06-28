@@ -6,6 +6,9 @@ using Plugin.Settings.Abstractions;
 
 namespace testapp.Models
 {
+    /// <summary>
+    /// LoggedInUser model, contains their information like username, password and authentication token. Code originally written by Bernd.
+    /// </summary>
     public static class LoggedinUser
     {
         public static string Username

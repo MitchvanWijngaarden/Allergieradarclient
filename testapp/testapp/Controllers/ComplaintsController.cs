@@ -17,17 +17,27 @@ namespace testapp.Controllers
         private ComplaintFormPage view;
         private Position position;
         public bool gpsEnabled { get; set; }
-        List<Complaint> list = new List<Complaint>();
 
+        /// <summary>
+        /// Constructor for ComplaintFormPage
+        /// </summary>
+        /// <param name="view"></param>
         public ComplaintsController(ComplaintFormPage view)
         {
             this.view = view;
         }
 
+        /// <summary>
+        /// Extra empty constructor for mappage, mappage and ComplaintFormPage should have a view interface.
+        /// </summary>
         public ComplaintsController()
         {
         }
 
+        /// <summary>
+        /// Atempts to get the users' GPS location with a preffered accuracy of at least 50 meters, could take a few seconds to acquire, hence why it's called
+        /// this early.
+        /// </summary>
         public async void CheckLocationEnabledAsync()
         {
             try
@@ -50,6 +60,10 @@ namespace testapp.Controllers
             }
         }
 
+        /// <summary>
+        /// Uses the previously gathered latitude and longitude to finish the Complaint model, then submits it to the ComplaintService.
+        /// </summary>
+        /// <param name="complaint"></param>
         public void SubmitComplaint(Complaint complaint)
         {
             complaint.latitude = position.Latitude.ToString();
@@ -59,13 +73,16 @@ namespace testapp.Controllers
             view.ShowAlert("Melding", "Uw klacht is succesvol verzonden.");
         }
 
+        /// <summary>
+        /// Returns all the complaints found in the database.
+        /// </summary>
+        /// <returns></returns>
         public List<Complaint> GetComplaints()
         {
-
+            List<Complaint> list = new List<Complaint>();
             var json = ComplaintService.Instance.GetAllComplaints();
 
             IEnumerable<Complaint> result = JsonConvert.DeserializeObject<IEnumerable<Complaint>>(json);
-
 
             foreach (Complaint c in result)
             {
