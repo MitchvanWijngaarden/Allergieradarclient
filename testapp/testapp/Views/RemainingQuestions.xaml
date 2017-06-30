@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="testapp.Views.RemainingQuestions" Title="Overige vragen">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Spacing="20" Padding="50">
+            <Label Text="Geboortejaar" />
+            <Entry x:Name="yearEntry" />
+            <Label Text="Geslacht" />
+            <Entry x:Name="genderEntry" Placeholder="m/v" />
+            <Label Text="Postcode" />
+            <Entry x:Name="zipcodeEntry" />
+            <Button Text="Gebruiker aanmaken" Clicked="Button_End" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -53,9 +53,9 @@ namespace testapp.ViewModels
         {
             var user = new User()
             {
-                Username = usernameEntry.Text,
-                Password = passwordEntry.Text,
-                Email = emailEntry.Text
+                username = usernameEntry.Text,
+                password = passwordEntry.Text,
+                emailadres = emailEntry.Text
             };
 
             // Sign up logic goes here
@@ -79,7 +79,7 @@ namespace testapp.ViewModels
 
         bool AreDetailsValid(User user)
         {
-            return (!string.IsNullOrWhiteSpace(user.Username) && !string.IsNullOrWhiteSpace(user.Password) && !string.IsNullOrWhiteSpace(user.Email) && user.Email.Contains("@"));
+            return (!string.IsNullOrWhiteSpace(user.username) && !string.IsNullOrWhiteSpace(user.password) && !string.IsNullOrWhiteSpace(user.emailadres) && user.emailadres.Contains("@"));
         }
     }
 
