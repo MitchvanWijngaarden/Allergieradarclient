@@ -191,27 +191,6 @@
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
     <None Include="packages.config" />
-    <None Include="Data\Hooikoortsenpollen\geranium.jpg" />
-    <None Include="Data\Hooikoortsenpollen\lr_hazelaarpollenopvinger.jpg" />
-    <None Include="Data\Hooikoortsenpollen\lr_media_742_064128.jpg" />
-    <None Include="Data\Hooikoortsenpollen\lr_media_749_72d0e1.jpg" />
-    <None Include="Data\Hooikoortsenpollen\lr_vossenstaart.jpg" />
-    <None Include="Data\Hooikoortsenpollen\lr_vossenstaart-detail.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_748_36aa37.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_749_72d0e1.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_754_d58e32.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_755_28b2c6.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_757_0013e5.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_758_ae0a67.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_759_98ba84.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_zwarte-els-katjes.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_751_3f7910.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_752_cf699f.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_753_4471ad.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_756_fa9496.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_760_9c3dd8.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_761_587168.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_762_32f55c.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -240,16 +219,27 @@
     <BundleResource Include="Resources\003-newspaper.png" />
     <BundleResource Include="Resources\004-home.png" />
     <BundleResource Include="Resources\allergieradar_tab.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Data\Allergie.txt" />
-    <Content Include="Data\Contact.txt" />
-    <Content Include="Data\Hooikoorts veroorzakende pollen.txt" />
-    <Content Include="Data\Hooikoortsenpollen.txt" />
-    <Content Include="Data\Onderzoeksdoelen.txt" />
-    <Content Include="Data\Over AllergieRadar.txt" />
-    <Content Include="Data\Rechten en Privacy.txt" />
-    <Content Include="Data\Uitleg van de Allergieradar App.txt" />
+    <BundleResource Include="Resources\geranium.jpg" />
+    <BundleResource Include="Resources\icon.png" />
+    <BundleResource Include="Resources\lr_hazelaarpollenopvinger.jpg" />
+    <BundleResource Include="Resources\lr_media_742_064128.jpg" />
+    <BundleResource Include="Resources\lr_media_748_36aa37.jpg" />
+    <BundleResource Include="Resources\lr_media_749_72d0e1.jpg" />
+    <BundleResource Include="Resources\lr_media_754_d58e32.jpg" />
+    <BundleResource Include="Resources\lr_media_755_28b2c6.jpg" />
+    <BundleResource Include="Resources\lr_media_757_0013e5.jpg" />
+    <BundleResource Include="Resources\lr_media_758_ae0a67.jpg" />
+    <BundleResource Include="Resources\lr_media_759_98ba84.jpg" />
+    <BundleResource Include="Resources\lr_vossenstaart_detail.jpg" />
+    <BundleResource Include="Resources\lr_vossenstaart.jpg" />
+    <BundleResource Include="Resources\lr_zwarte_els_katjes.jpg" />
+    <BundleResource Include="Resources\media_751_3f7910.jpg" />
+    <BundleResource Include="Resources\media_752_cf699f.jpg" />
+    <BundleResource Include="Resources\media_753_4471ad.jpg" />
+    <BundleResource Include="Resources\media_756_fa9496.jpg" />
+    <BundleResource Include="Resources\media_760_9c3dd8.jpg" />
+    <BundleResource Include="Resources\media_761_587168.jpg" />
+    <BundleResource Include="Resources\media_762_32f55c.jpg" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="..\testapp\testapp.projitems" Label="Shared" Condition="Exists('..\testapp\testapp.projitems')" />
