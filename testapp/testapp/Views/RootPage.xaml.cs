@@ -1,8 +1,6 @@
 ﻿﻿﻿using System;
 using System.Collections.Generic;
-using testapp.Helpers;
 using testapp.Models;
-using WorkingWithWebview;
 using Xamarin.Forms;
 
 namespace testapp.Views
@@ -23,14 +21,14 @@ namespace testapp.Views
 			var page2 = new ViewModels.MenuPageViewModel() { Title = "Informatie", Icon = "tab_about.png", TargetType = typeof(InfoPage) };
             var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(ComplaintFormPage) };
             var news = new ViewModels.MenuPageViewModel() { Title = "Nieuws", Icon = "itemIcon1.png", TargetType = typeof(RssFeedPage) };
-            //var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(ComplaintFormPage) };
             var loginPage = new ViewModels.MenuPageViewModel() { Title = "Inloggen", Icon = "itemIcon1.png", TargetType = typeof(LoginPage)};
             var logoutPage = new ViewModels.MenuPageViewModel() { Title = "Uitloggen", Icon = "itemIcon1.png,", TargetType = typeof(LogoutPage) };
 
 
             menuList.Add(page1);
 			menuList.Add(page2);
-            //menuList.Add(page3);
+            menuList.Add(news);
+   
 
             if (string.IsNullOrEmpty(LoggedinUser.AccessToken))
             {

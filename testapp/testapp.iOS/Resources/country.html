@@ -9,42 +9,42 @@
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 
 
-		<script>
-	        google.load('visualization', '1', {packages: ['geochart']});
-			$(function() {
-    		// when document loads, grab the json
-			$.getJSON('http://145.101.89.30:8080/api/map', function(data) {
-				// once grabbed, we run this callback
+    <script>
+            google.load('visualization', '1', {packages: ['geochart']});
+            $(function() {
+            // when document loads, grab the json
+            $.getJSON('http://145.101.89.133:8080/api/map', function(data) {
+                // once grabbed, we run this callback
 
-				// setup the new map and its variables
-				var map = new google.visualization.DataTable();
-					map.addRows(data.length);  // length gives us the number of results in our returned data
-					map.addColumn('string', 'Stad');
-	      		map.addColumn('number', 'Gemiddelde klacht');
+                // setup the new map and its variables
+                var map = new google.visualization.DataTable();
+                    map.addRows(data.length);  // length gives us the number of results in our returned data
+                    map.addColumn('string', 'Stad');
+                map.addColumn('number', 'Gemiddelde klacht');
 
-				// now we need to build the map data, loop over each result
-				$.each(data, function(i,v) {
-					// set the values for both the name and the population
-					map.setValue(i, 0, v.City);
-					map.setValue(i, 1, v.avg_complaint);
-				});
+                // now we need to build the map data, loop over each result
+                $.each(data, function(i,v) {
+                    // set the values for both the name and the population
+                    map.setValue(i, 0, v.City);
+                    map.setValue(i, 1, v.avg_complaint);
+                });
 
-				var options = {
-					sizeAxis: { minValue: 10, maxValue: 10 },
-					region: 'NL',
-					displayMode: 'markers',
-					backgroundColor: '#A1DAFB',
-					datalessRegionColor: '#00853f',
-					colorAxis: {colors: ['green', 'red']},
-					keepAspectRatio: true,
-				};
+                var options = {
+                    sizeAxis: { minValue: 10, maxValue: 10 },
+                    region: 'NL',
+                    displayMode: 'markers',
+                    backgroundColor: '#A1DAFB',
+                    datalessRegionColor: '#00853f',
+                    colorAxis: {colors: ['green', 'red']},
+                    keepAspectRatio: true,
+                };
 
-				// finally, create the map!
-				var geomap = new google.visualization.GeoChart(document.getElementById('chart_div'));
-		     	geomap.draw(map, options);
-			});
-		});
-	</script>
+                
+                var geomap = new google.visualization.GeoChart(document.getElementById('chart_div'));
+                geomap.draw(map, options);
+            });
+        });
+    </script>
 </head>
 <body>
     <div id="chart_div" style="zoom: 2;
