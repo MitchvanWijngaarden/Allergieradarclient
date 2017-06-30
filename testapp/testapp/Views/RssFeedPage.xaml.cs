@@ -8,6 +8,7 @@ namespace testapp.Views
         public RssFeedPage()
         {
             InitializeComponent();
+            NavigationPage.SetTitleIcon(this, "allergieradar_tab.png");
         }
 
         void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs args)

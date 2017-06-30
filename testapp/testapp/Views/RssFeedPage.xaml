@@ -13,7 +13,7 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <local:RssFeedViewModel x:Key="rssFeed"
-                    Url="http://earthobservatory.nasa.gov/Feeds/rss/eo_iotd.rss" />
+                    Url="https://www.allergieradar.nl/rss.php" />
         </ResourceDictionary>
     </ContentPage.Resources>
 

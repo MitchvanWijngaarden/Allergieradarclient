@@ -44,7 +44,7 @@
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Developer: vedad-pr@hotmail.com (G2S3RMSRBQ)</CodesignKey>
     <MtouchFloat32>true</MtouchFloat32>
-    <CodesignEntitlements>Info.plist</CodesignEntitlements>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
@@ -228,6 +228,11 @@
     <BundleResource Include="Resources\tab_feed%402x.png" />
     <BundleResource Include="Resources\tab_feed%403x.png" />
     <BundleResource Include="Resources\allergieradar_logo.png" />
+    <BundleResource Include="Resources\country.html" />
+    <BundleResource Include="Resources\001-login.png" />
+    <BundleResource Include="Resources\002-logout.png" />
+    <BundleResource Include="Resources\003-newspaper.png" />
+    <BundleResource Include="Resources\004-home.png" />
     <BundleResource Include="Resources\allergieradar_tab.png" />
   </ItemGroup>
   <ItemGroup>
@@ -239,7 +244,6 @@
     <Content Include="Data\Over AllergieRadar.txt" />
     <Content Include="Data\Rechten en Privacy.txt" />
     <Content Include="Data\Uitleg van de Allergieradar App.txt" />
-    <Content Include="Resources\country.html" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="..\testapp\testapp.projitems" Label="Shared" Condition="Exists('..\testapp\testapp.projitems')" />

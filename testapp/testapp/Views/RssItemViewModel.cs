@@ -17,7 +17,7 @@ namespace testapp.Views
 
             // Sometimes there's no thumbnail, so check for its presence.
             XElement thumbnailElement = element.Element(
-                XName.Get("thumbnail", "http://search.yahoo.com/mrss/"));
+                XName.Get("thumbnail", "https://www.allergieradar.nl/rss.php"));
 
             if (thumbnailElement != null)
             {

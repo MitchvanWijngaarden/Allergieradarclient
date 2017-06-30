@@ -12,7 +12,7 @@ namespace testapp.Views
         {
 			
 				InitializeComponent();
-
+            NavigationPage.SetTitleIcon(this, "allergieradar_tab.png");
 				this.BindingContext = new[] { 
                 "Allergie", "Hooikoorts en Pollen",                           
                 "Hooikoortsveroorzakers","Over Allergieradar",                             
