@@ -1,5 +1,39 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="testapp.Views.AboutPages.Onderzoekdoelen">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="testapp.Views.AboutPages.Onderzoekdoelen" Title="Onderzoeksdoelen">
 	<ContentPage.Content>
-	</ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20,20">
+
+                <Label Text="De dagelijkse registratie van de mate waarin hooikoortspatiënten last hebben van neus, ogen en longen wordt gebruikt voor wetenschappelijk onderzoek. Het onderzoek naar de klachtengegevens wordt gecoördineerd door het Leids Universitair Medisch Centrum en Wageningen Universiteit. Het onderzoek richt zich op de volgende doelen:"/>
+
+                <ContentView Padding="0,20,0,0">
+                    <Label Text="Meer kennis over hooikoorts"  Style="{DynamicResource TitleStyle}" />
+                </ContentView>
+
+                <Label Text="Vergroten van de kennis over waar in Nederland en wanneer mensen hooikoortsklachten hebben."/>
+                <Label Text="Bepalen bij welke pollenconcentratie patiënten welke mate van klachten ondervinden."/>
+
+                <ContentView Padding="0,20,0,0">
+                    <Label Text="Vergroten kennis oorzaak hooikoorts"  Style="{DynamicResource TitleStyle}" />
+                </ContentView>
+
+                <Label Text="Vergroten van de kennis over de biologische factoren, omgevingsfactoren, medische en sociaaleconomische factoren die de (intensiteit en variabiliteit van) hooikoortsklachten veroorzaken. De klachtenregistraties worden hiervoor gekoppeld aan gegevens over weersomstandigheden, pollentellingen, de aanwezigheid van planten, luchtverontreiniging en diverse andere databestanden."/>
+
+                <ContentView Padding="0,20,0,0">
+                    <Label Text="Valideren onderzoekresultaten"  Style="{DynamicResource TitleStyle}" />
+                </ContentView>
+
+                <Label Text="Valideren van de huidige hooikoortsverwachting en ontwikkelen van nieuwe hooikoortsverwachtingen bijvoorbeeld voor berkenpollen."/>
+
+                <ContentView Padding="0,20,0,0">
+                    <Label Text="Contact met doelgroep"  Style="{DynamicResource TitleStyle}" />
+                </ContentView>
+
+                <Label Text="Daarnaast is het doel om beschikbare en verkregen kennis actief te communiceren naar allergiepatiënten en artsen zodat deze groepen in staat zijn om allergieklachten te voorkomen of te beperken."/>
+                
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

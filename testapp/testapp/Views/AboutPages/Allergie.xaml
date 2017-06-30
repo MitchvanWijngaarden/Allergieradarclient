@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="testapp.Views.AboutPages.Allergie" Title="Allergie">
 	<ContentPage.Content>
         <ScrollView>
-        <StackLayout Padding="30,20">
+        <StackLayout Padding="20,20">
             <Label Text="Een allergie is een overdreven reactie van het immuunsysteem. Normaal gesproken beschermt het immuunsysteem het lichaam tegen schadelijke stoffen zoals virussen, bacteriën en schimmels. In het geval van een allergie gaat het immuunsysteem de strijd aan met 'onschuldige' eiwitten, de allergenen."/>
 
 

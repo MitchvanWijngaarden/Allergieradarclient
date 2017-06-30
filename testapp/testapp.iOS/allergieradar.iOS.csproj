@@ -89,8 +89,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NControl, Version=0.2.6251.21805, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NControl.0.9.1.0\lib\Xamarin.iOS10\NControl.dll</HintPath>
+    </Reference>
+    <Reference Include="NControl.iOS, Version=0.2.6251.21812, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NControl.0.9.1.0\lib\Xamarin.iOS10\NControl.iOS.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Newtonsoft.Json.10.0.2\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NGraphics, Version=0.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NGraphics.0.4.0\lib\Xamarin.iOS10\NGraphics.dll</HintPath>
+    </Reference>
+    <Reference Include="NGraphics.iOS, Version=1.0.5842.23159, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NGraphics.0.4.0\lib\Xamarin.iOS10\NGraphics.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Plugin.Geolocator, Version=3.0.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xam.Plugin.Geolocator.3.0.4\lib\Xamarin.iOS10\Plugin.Geolocator.dll</HintPath>
@@ -227,6 +239,27 @@
     <Content Include="Data\Rechten en Privacy.txt" />
     <Content Include="Data\Uitleg van de Allergieradar App.txt" />
     <Content Include="Resources\country.html" />
+    <AndroidResource Include="Resources\geranium.jpg" />
+    <AndroidResource Include="Resources\icon.png" />
+    <AndroidResource Include="Resources\lr_hazelaarpollenopvinger.jpg" />
+    <AndroidResource Include="Resources\lr_media_742_064128.jpg" />
+    <AndroidResource Include="Resources\lr_media_748_36aa37.jpg" />
+    <AndroidResource Include="Resources\lr_media_749_72d0e1.jpg" />
+    <AndroidResource Include="Resources\lr_media_754_d58e32.jpg" />
+    <AndroidResource Include="Resources\lr_media_755_28b2c6.jpg" />
+    <AndroidResource Include="Resources\lr_media_757_0013e5.jpg" />
+    <AndroidResource Include="Resources\lr_media_758_ae0a67.jpg" />
+    <AndroidResource Include="Resources\lr_media_759_98ba84.jpg" />
+    <AndroidResource Include="Resources\lr_vossenstaart.jpg" />
+    <AndroidResource Include="Resources\lr_vossenstaart_detail.jpg" />
+    <AndroidResource Include="Resources\lr_zwarte_els_katjes.jpg" />
+    <AndroidResource Include="Resources\media_751_3f7910.jpg" />
+    <AndroidResource Include="Resources\media_752_cf699f.jpg" />
+    <AndroidResource Include="Resources\media_753_4471ad.jpg" />
+    <AndroidResource Include="Resources\media_756_fa9496.jpg" />
+    <AndroidResource Include="Resources\media_760_9c3dd8.jpg" />
+    <AndroidResource Include="Resources\media_761_587168.jpg" />
+    <AndroidResource Include="Resources\media_762_32f55c.jpg" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="..\testapp\testapp.projitems" Label="Shared" Condition="Exists('..\testapp\testapp.projitems')" />

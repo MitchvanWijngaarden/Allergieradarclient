@@ -151,6 +151,32 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\profile_generic.png" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\geranium.jpg" />
+    <AndroidResource Include="Resources\drawable\lr_hazelaarpollenopvinger.jpg" />
+    <AndroidResource Include="Resources\drawable\lr_media_742_064128.jpg" />
+    <AndroidResource Include="Resources\drawable\lr_media_749_72d0e1.jpg" />
+    <AndroidResource Include="Resources\drawable\lr_vossenstaart_detail.jpg" />
+    <AndroidResource Include="Resources\drawable\lr_vossenstaart.jpg" />
+    <AndroidResource Include="Resources\drawable\lr_media_748_36aa37.jpg" />
+    <AndroidResource Include="Resources\drawable\lr_media_754_d58e32.jpg" />
+    <AndroidResource Include="Resources\drawable\lr_media_755_28b2c6.jpg" />
+    <AndroidResource Include="Resources\drawable\lr_media_757_0013e5.jpg" />
+    <AndroidResource Include="Resources\drawable\lr_media_758_ae0a67.jpg" />
+    <AndroidResource Include="Resources\drawable\lr_media_759_98ba84.jpg" />
+    <AndroidResource Include="Resources\drawable\lr_zwarte_els_katjes.jpg" />
+    <AndroidResource Include="Resources\drawable\media_751_3f7910.jpg" />
+    <AndroidResource Include="Resources\drawable\media_752_cf699f.jpg" />
+    <AndroidResource Include="Resources\drawable\media_753_4471ad.jpg" />
+    <AndroidResource Include="Resources\drawable\media_756_fa9496.jpg" />
+    <AndroidResource Include="Resources\drawable\media_760_9c3dd8.jpg" />
+    <AndroidResource Include="Resources\drawable\media_761_587168.jpg" />
+    <AndroidResource Include="Resources\drawable\media_762_32f55c.jpg" />
+    <AndroidResource Include="Resources\drawable\icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\icon.png" />
     <Content Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />

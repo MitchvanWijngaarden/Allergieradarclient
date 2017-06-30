@@ -119,34 +119,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)Data\Contact.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoorts veroorzakende pollen.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Onderzoeksdoelen.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Over AllergieRadar.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Rechten en Privacy.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Uitleg van de Allergieradar App.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen\geranium.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen\lr_hazelaarpollenopvinger.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen\lr_media_742_064128.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen\lr_media_749_72d0e1.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen\lr_vossenstaart-detail.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen\lr_vossenstaart.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_748_36aa37.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_749_72d0e1.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_754_d58e32.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_755_28b2c6.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_757_0013e5.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_758_ae0a67.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_759_98ba84.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_zwarte-els-katjes.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_751_3f7910.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_752_cf699f.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_753_4471ad.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_756_fa9496.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_760_9c3dd8.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_761_587168.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_762_32f55c.jpg" />
     <None Include="$(MSBuildThisFileDirectory)ViewModels\BaseViewModel.cs" />
   </ItemGroup>
   <ItemGroup>

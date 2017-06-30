@@ -10,6 +10,14 @@ namespace testapp.Views.AboutPages
         public Hooikoorts_en_Pollen()
         {
             InitializeComponent();
+
+           // var image1 = ImageSource.FromResource("testapp.Data.Hooikoortsenpollen lr_hazelaarpollenopvinger.jpg");
+
+
+
+
         }
+
+
     }
 }

@@ -18,6 +18,8 @@ namespace testapp.Views
                 "Hooikoortsveroorzakers","Over Allergieradar",                             
                 "Onderzoekdoelen","Uitleg Allergieradar App",
                 "Contact","Rechten en Privacy" };
+
+
 			}
 
 		void OnItemTapped(object sender, SelectedItemChangedEventArgs e)
