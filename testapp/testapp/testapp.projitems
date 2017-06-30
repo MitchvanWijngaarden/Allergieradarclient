@@ -58,7 +58,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Controllers\ComplaintsController.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\RequestHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Settings.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Helpers\SettingsSingleton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\BaseDataObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\LoggedinUser.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\LoginService.cs" />

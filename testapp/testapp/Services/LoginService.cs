@@ -12,7 +12,7 @@ namespace testapp.Services
 {
     public class LoginService<T>
     {
-        private static string apiUrl = SettingsSingleton.getApiUrl() + "users/me";
+        private static string apiUrl = Settings.URL + "users/me";
         //private const string MainWebServiceUrl = "http://10.0.3.2:8080/";
         // private const string LoginWebServiceUrl = MainWebServiceUrl + "api/users/me?";
 
