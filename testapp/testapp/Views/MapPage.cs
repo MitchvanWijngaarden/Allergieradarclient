@@ -125,7 +125,9 @@ namespace testapp.Views
             int totalLungs = 0;
             int totalEyes = 0;
             int totalNose = 0;
+            int totalAverage = 0;
 
+         
             try
             {
                 foreach (Complaint complaint in controller.GetComplaints())
@@ -152,14 +154,16 @@ namespace testapp.Views
                 Debug.WriteLine("Average eyes: " + averageEyes);
                 Debug.WriteLine("Average nose : " + averageNose);
 
-                int totalAverage = (averageEyes + averageLungs + averageNose) / 3;
+                totalAverage = (averageEyes + averageLungs + averageNose) / 3;
 
-                globalComplaintScore.Text = totalAverage.ToString();
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 Debug.WriteLine("FFF " + ex);
             }
             
+            globalComplaintScore.Text = totalAverage.ToString();
         }
-	}
+
+    }
 }

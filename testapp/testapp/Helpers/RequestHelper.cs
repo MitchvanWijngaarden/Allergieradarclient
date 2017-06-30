@@ -12,35 +12,9 @@ namespace testapp.Helpers
 
         private string apiURL = Settings.URL;
         private string authenticationToken = LoggedinUser.AccessToken;
-        private HttpClient httpClient;
         private StringContent request;
         private HttpResponseMessage response;
 
-        /// <summary>
-        /// Constructor that prepares the requests, adds authentication 
-        /// </summary>
-        public RequestHelper()
-        {
-            PrepareRequests();
-            AddAuthentication();
-        }
-
-        /// <summary>
-        /// Prepares the HttpClient to ensure Do not repeat yourself. 
-        /// </summary>
-        public void PrepareRequests()
-        {
-            httpClient = new HttpClient();
-        }
-
-        /// <summary>
-        /// Adds the base64 authentication code to the request, used for basic authentication API calls.
-        /// </summary>
-        public void AddAuthentication()
-        {
-            var credentials = Encoding.ASCII.GetBytes(authenticationToken);
-            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(credentials));
-        }
 
         /// <summary>
         /// Posts Object O and Apilocation to the API, example: Complaint c to /complaints/
@@ -49,19 +23,25 @@ namespace testapp.Helpers
         /// <param name="apiLocation"></param>
         public async void PostDataAsync(object o, string apiLocation)
         {
+            HttpClient httpClient = new HttpClient();
             using (httpClient)
             {
                 try
                 {
                     String messageBody = JsonConvert.SerializeObject(o);
+                    //Debug.Write("Object post:" + messageBody);
                     request = new StringContent(messageBody);
                     request.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+                    var credentials = Encoding.ASCII.GetBytes(authenticationToken);
+                    httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(credentials));
 
                     response = await httpClient.PostAsync(new Uri(apiURL + apiLocation), request);
+
+
                 }
                 catch (Exception ex)
                 {
-                    Debug.Write(ex.Message);
+                    Debug.Write("Post error:" + ex.Message);
                 }
             }
         }
@@ -73,11 +53,14 @@ namespace testapp.Helpers
         /// <returns></returns>
         public string GetData(string apiLocation)
         {
+            HttpClient httpClient = new HttpClient();
             using (httpClient)
             {
                 try
                 {
-                    response = httpClient.GetAsync(apiURL +  apiLocation).Result;
+                    var credentials = Encoding.ASCII.GetBytes(authenticationToken);
+                    httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(credentials));
+                    response = httpClient.GetAsync(apiURL + apiLocation).Result;
                 }
                 catch (Exception ex)
                 {
