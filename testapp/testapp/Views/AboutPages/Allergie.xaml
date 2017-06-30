@@ -1,5 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="testapp.Views.AboutPages.Allergie">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="testapp.Views.AboutPages.Allergie" Title="Allergie">
 	<ContentPage.Content>
-	</ContentPage.Content>
+        <ScrollView>
+        <StackLayout Padding="20,20">
+            <Label Text="Een allergie is een overdreven reactie van het immuunsysteem. Normaal gesproken beschermt het immuunsysteem het lichaam tegen schadelijke stoffen zoals virussen, bacteriën en schimmels. In het geval van een allergie gaat het immuunsysteem de strijd aan met 'onschuldige' eiwitten, de allergenen."/>
+
+
+                <ContentView Padding="0,20,0,0">
+                    <Label Text="Veel voorkomende allergenen"  Style="{DynamicResource TitleStyle}" />
+                </ContentView>
+
+                <ContentView Padding="0,10,0,0">
+                    <Label Text="Luchtwegallergenen" Style="{DynamicResource SubTitleStyle}" Font="Bold"/>
+                </ContentView>
+                <Label Text="Deze allergenen komen met de ingeademde lucht in onze luchtwegen en veroorzaken daar een allergische reactie. De meest bekende luchtwegallergenen komen voor in pollen, in de uitwerpselen van de huisstofmijt, in de huidschilfers of uitwerpselen van dieren." Style="{DynamicResource BodyStyle}"/>
+
+                <ContentView Padding="0,10,0,0">
+                    <Label Text="Allergenen in voedingsmiddelen" Style="{DynamicResource SubTitleStyle}" Font="Bold"/>
+                </ContentView>
+                <Label Text="Tot de meest voorkomende voedselallergieën behoren koemelk, eieren, vis, schaaldieren, noten, granen, ontbijtgranen, citrusvruchten, pinda's en sojabonen." Style="{DynamicResource BodyStyle}"/>
+
+                <ContentView Padding="0,10,0,0">
+                    <Label Text="Allergenen in geneesmiddelen" Style="{DynamicResource SubTitleStyle}" Font="Bold"/>
+                </ContentView>
+                <Label Text="Een bekend voorbeeld is een allergie voor antibiotica zoals penicilline." Style="{DynamicResource BodyStyle}"/>
+
+                <ContentView Padding="0,10,0,0">
+                    <Label Text="Insecten gif" Style="{DynamicResource SubTitleStyle}" Font="Bold"/>
+                </ContentView>
+                <Label Text="Allergie voor een bijen- of wespensteek." Style="{DynamicResource BodyStyle}"/>
+            
+                <ContentView Padding="0,10,0,0">
+                    <Label Text="Huidallergenen" Style="{DynamicResource SubTitleStyle}" Font="Bold"/>
+                </ContentView>
+                <Label Text="Na contact met bijvoorbeeld latex handschoenen, kunnen allergische verschijnselen op de huid ontstaan, zoals roodheid, jeuk en schilfering." Style="{DynamicResource BodyStyle}"/>
+
+         
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>
