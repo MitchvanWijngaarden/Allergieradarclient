@@ -46,7 +46,7 @@ namespace testapp.Views
 
             Button nextButton = new Button();
             nextButton.Text = "Volgende vraag";
-            nextButton.HorizontalOptions = LayoutOptions.CenterAndExpand;
+            nextButton.BackgroundColor = Color.DeepSkyBlue;
             nextButton.Clicked += Button_Next;
 
             layout.Children.Add(nextButton);
@@ -61,7 +61,6 @@ namespace testapp.Views
 
         private void AddMedicinesToLayout(String medicinetype)
         {
-            Debug.WriteLine("AddMedicinesToLayout aangeroepen");
             Label medicineTypeLabel = new Label();
             medicineTypeLabel.Text = medicinetype;
             layout.Children.Add(medicineTypeLabel);
@@ -75,6 +74,7 @@ namespace testapp.Views
         private void AddButtonToLayout(int medicineID, string medicinetype)
         {
             Button button = new Button();
+            button.Margin = new Thickness(-10);
             button.ClassId = medicineID.ToString();
             button.Text = medicinetype;
             button.Clicked += ButtonAnswer;
@@ -87,7 +87,7 @@ namespace testapp.Views
 
             int medicineID = Int32.Parse(btn.ClassId);
 
-            if (btn.BackgroundColor == Color.Red)
+            if (btn.BackgroundColor == Color.LimeGreen)
             {
                 controller.DeleteUserMedicine(medicineID);
                 btn.BackgroundColor = Color.Default;
@@ -95,7 +95,7 @@ namespace testapp.Views
             else
             {
                 controller.AddUserMedicine(medicineID);
-                btn.BackgroundColor = Color.Red;
+                btn.BackgroundColor = Color.LimeGreen;
             }
         }
 
@@ -105,6 +105,10 @@ namespace testapp.Views
             {
                 Navigation.PopModalAsync();
                 Navigation.PushModalAsync(new RemainingQuestions());
+            }
+            else
+            {
+                DisplayAlert("Antwoord klopt niet!", "Vraag is verkeerd/niet beantwoordt", "Ok");
             }
         }
     }

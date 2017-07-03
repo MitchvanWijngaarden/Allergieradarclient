@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
+using System.Threading.Tasks;
 using testapp.Models;
 using testapp.Services;
 using testapp.Views;
@@ -117,19 +118,19 @@ namespace testapp.Controllers
                     returnvalue = (NextQuestionnumber(questionnumber, "Ja")) ? "4d" : "4g";
                     break;
                 case "4d":
-                    returnvalue = (NextQuestionnumber(questionnumber, "Boompollen")) ? "4e" : (NextQuestionnumber(questionnumber, "Kruidpollen")) ? "4f" : "5" ;
+                    returnvalue = (NextQuestionnumber(questionnumber, "Boompollen")) ? "4e" : (NextQuestionnumber(questionnumber, "Kruidpollen (bijv. bijvoet)")) ? "4f" : "5" ;
                     break;
                 case "4e":
-                    returnvalue = (NextQuestionnumber("4d", "Kruidpollen")) ? "4f" : "5";
+                    returnvalue = (NextQuestionnumber("4d", "Kruidpollen (bijv. bijvoet)")) ? "4f" : "5";
                     break;
                 case "4f":
                     returnvalue = "5";
                     break;
                 case "4g":
-                    returnvalue = (NextQuestionnumber(questionnumber, "Boompollen")) ? "4h" : (NextQuestionnumber(questionnumber, "Kruidpollen")) ? "4i" : "5";
+                    returnvalue = (NextQuestionnumber(questionnumber, "Boompollen")) ? "4h" : (NextQuestionnumber(questionnumber, "Kruidpollen (bijv. bijvoet)")) ? "4i" : "5";
                     break;
                 case "4h":
-                    returnvalue = (NextQuestionnumber("4d", "Kruidpollen")) ? "4i" : "5";
+                    returnvalue = (NextQuestionnumber("4g", "Kruidpollen (bijv. bijvoet)")) ? "4i" : "5";
                     break;
                 case "4i":
                     returnvalue = "5";
@@ -196,16 +197,23 @@ namespace testapp.Controllers
             UserMedicines.Instance.DeleteUserMedicine(medicineID);
         }
 
-        public void SendData()
+        public async Task SendData()
         {
-            SignUpService.Instance.SubmitUser(User.Instance);
+            await SignUpService.Instance.SubmitUser(User.Instance);
+
+            Task<int> t = SignUpService.Instance.GetUserIdByUsername();
+
+            int userID = await t;
+
+            Debug.WriteLine("userid in senddata = " + userID);
+
             foreach (UserAnswer ua in UserAnswers.Instance.useranswers)
             {
-                SignUpService.Instance.SubmitUserAnswer(ua);
+                SignUpService.Instance.SubmitUserAnswer(ua, userID);
             }
             foreach (UserMedicine um in UserMedicines.Instance.usermedicines)
             {
-                SignUpService.Instance.SubmitUserMedicine(um);
+                SignUpService.Instance.SubmitUserMedicine(um, userID);
             }
         }
     }

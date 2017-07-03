@@ -74,18 +74,12 @@ namespace testapp.Views
 
         private void AddDefaultButtonsToLayout()
         {
-            StackLayout layout2 = new StackLayout();
-            layout2.Orientation = StackOrientation.Horizontal;
-            layout2.HorizontalOptions = LayoutOptions.FillAndExpand;
-
             Button nextButton = new Button();
             nextButton.Text = "Volgende vraag";
-            nextButton.HorizontalOptions = LayoutOptions.CenterAndExpand;
+            nextButton.BackgroundColor = Color.DeepSkyBlue;
             nextButton.Clicked += Button_Next;
 
-            layout2.Children.Add(nextButton);
-
-            layout.Children.Add(layout2);
+            layout.Children.Add(nextButton);
         }
 
         private void Button_Next(object sender, EventArgs e)
@@ -128,7 +122,7 @@ namespace testapp.Views
             String questionnumber = question.questionnumber;
             int answerID = Int32.Parse(btn.ClassId);
 
-            if (btn.BackgroundColor == Color.Red)
+            if (btn.BackgroundColor == Color.LimeGreen)
             {
                 controller.DeleteUserAnswer(answerID);
                 btn.BackgroundColor = Color.Default;
@@ -136,7 +130,7 @@ namespace testapp.Views
             else
             {
                 controller.AddUserAnswer(questionnumber, answerID);
-                btn.BackgroundColor = Color.Red;
+                btn.BackgroundColor = Color.LimeGreen;
             }
         }
     }

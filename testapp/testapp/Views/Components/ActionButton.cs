@@ -21,8 +21,8 @@ namespace testapp.Views.Components
         /// </summary>
         public ActionButton()
         {
-            HeightRequest = 88;
-            WidthRequest = 88;
+            HeightRequest = 66;
+            WidthRequest = 66;
 
             _label = new Label
             {

@@ -12,6 +12,9 @@ namespace testapp.Views
     {
         private ComplaintsController controller;
 
+        /// <summary>
+        /// 
+        /// </summary>
         public ComplaintFormPage()
         {
             InitializeComponent();
@@ -20,13 +23,21 @@ namespace testapp.Views
             this.BackgroundColor = new Color(0, 0, 0, 0.4);
         }
 
+        /// <summary>
+        /// This function gets called when eyes,lungs and nose sliders get touched by the user. Changes the values of the label next to them.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         void OnSliderValueChanged(object sender, ValueChangedEventArgs args) {
             valueLabelNose.Text = Convert.ToInt16(((Slider)sliderNose).Value).ToString();
             valueLabelLungs.Text = Convert.ToInt16(((Slider)sliderLungs).Value).ToString();
             valueLabelEyes.Text = Convert.ToInt16(((Slider)sliderEyes).Value).ToString();
         }
 
-        public void CheckGPSEnabled(object sender, EventArgs e)
+        /// <summary>
+        /// Checks if the users' GPS is enabled, if GPS is enabled call the SubmitData method.
+        /// </summary>
+        public void CheckGPSEnabled()
         {
             try
             {
@@ -44,6 +55,9 @@ namespace testapp.Views
 
         }
 
+        /// <summary>
+        /// Closes the modal the + button on the map page opens.
+        /// </summary>
         private void ReturnToMap()
         {
             try
@@ -58,6 +72,9 @@ namespace testapp.Views
         }
 
  
+        /// <summary>
+        /// Creates a complaint model from the values entered in the form, sends the created complaint to the controller.
+        /// </summary>
         public void SubmitData()
         {
             try
@@ -80,7 +97,11 @@ namespace testapp.Views
             }
         }
 
-
+        /// <summary>
+        /// Shows a DisplayAlert on the screen, used so the controller can show messages on the view.
+        /// </summary>
+        /// <param name="alertType"></param>
+        /// <param name="alertMessage"></param>
         public void ShowAlert(String alertType, String alertMessage)
         {
             DisplayAlert(alertType, alertMessage, "OK");

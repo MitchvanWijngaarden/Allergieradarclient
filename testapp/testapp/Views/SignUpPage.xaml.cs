@@ -26,7 +26,7 @@ namespace testapp.Views
             controller = new SignUpController(this);
 		}
 
-        public void OnSignUpButtonClicked(object sender, EventArgs e)
+        public async Task OnSignUpButtonClicked(object sender, EventArgs e)
         {
             if (!string.IsNullOrWhiteSpace(usernameEntry.Text) && !string.IsNullOrWhiteSpace(passwordEntry.Text)
                 && !string.IsNullOrWhiteSpace(emailEntry.Text) && emailEntry.Text.Contains("@"))
@@ -35,12 +35,15 @@ namespace testapp.Views
                 User.Instance.password = passwordEntry.Text;
                 User.Instance.emailadres = emailEntry.Text;
 
-                int userID = SignUpService.Instance.GetUserIdByUsername();
+                Task<int> t = SignUpService.Instance.GetUserIdByUsername();
+
+                int userID = await t;
 
                 if (userID == 0)
                 {
                     UserAnswers.Instance.useranswers.Clear();
-                    Navigation.PushModalAsync(new Vragenlijst("1"));
+                    //Navigation.PushModalAsync(new Vragenlijst("1"));
+                    Navigation.PushModalAsync(new MedicinePage());
                 }
                 else
                 {
