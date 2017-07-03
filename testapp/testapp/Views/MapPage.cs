@@ -1,9 +1,8 @@
 ﻿using System;
 using Xamarin.Forms;
 using testapp.Helpers;
-using testapp.Views.Components;
 using testapp.Models;
-
+using NControl.Controls;
 namespace testapp.Views
 {
 
@@ -47,20 +46,26 @@ namespace testapp.Views
 				VerticalOptions = LayoutOptions.FillAndExpand
 			};
 
-			var bottomRightLabel = new ActionButton()
-			{
-				Margin = 5
+
+			//var bottomRightLabel = new ActionButton()
+			//{
+			//	Margin = 5
+			//};
+			var bottomRightLabel = new NControl.Controls.ActionButton
+            {
+				ButtonColor = Color.FromHex("#E91E63"),
+				ButtonIcon = FontAwesomeLabel.FAThumbsUp,
 			};
 
 			var command = new Command(() => OpenModal());
 
 			bottomRightLabel.Command = command;
 
-			AbsoluteLayout.SetLayoutFlags(bottomRightLabel,
-				AbsoluteLayoutFlags.PositionProportional);
+			//AbsoluteLayout.SetLayoutFlags(bottomRightLabel,
+			//	AbsoluteLayoutFlags.PositionProportional);
 
-			AbsoluteLayout.SetLayoutFlags(bottomRightLabel,
-				AbsoluteLayoutFlags.PositionProportional);
+			//AbsoluteLayout.SetLayoutFlags(bottomRightLabel,
+				//AbsoluteLayoutFlags.PositionProportional);
 
 			AbsoluteLayout.SetLayoutBounds(bottomRightLabel,
 				new Rectangle(1f, 1f, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
@@ -74,7 +79,7 @@ namespace testapp.Views
 			simpleLayout.Children.Add(browser);
 
 			if (!string.IsNullOrEmpty(LoggedinUser.Password))
-				simpleLayout.Children.Add(bottomRightLabel);
+				simpleLayout.Children.Add(bottomRightLabel,new Rectangle((simpleLayout.Width / 4) - (56 / 2), (simpleLayout.Height / 2) - (56 / 2), 56, 56));
 
 			Content = simpleLayout;
 		}

@@ -50,6 +50,9 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\RssFeedPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\WeatherPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
@@ -64,7 +67,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ObservableObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ObservableRangeCollection.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\MessengingCenterAlert.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\Components\ActionButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\ComplaintFormPage.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -112,13 +114,20 @@
       <DependentUpon>Rechten_en_Privacy.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\RssFeedPage.xaml.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\RssFeedViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\RssItemViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\RssFeedViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\RssItemViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\WeatherPage.xaml.cs">
+      <DependentUpon>WeatherPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ActionButtonPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Components\ActionButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\WeatherController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Weather.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\WeatherService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Data\" />
     <Folder Include="$(MSBuildThisFileDirectory)Views\AboutPages\" />
   </ItemGroup>
   <ItemGroup>
@@ -127,35 +136,18 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)Data\Contact.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoorts veroorzakende pollen.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Onderzoeksdoelen.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Over AllergieRadar.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Rechten en Privacy.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Uitleg van de Allergieradar App.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen\geranium.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen\lr_hazelaarpollenopvinger.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen\lr_media_742_064128.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen\lr_media_749_72d0e1.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen\lr_vossenstaart-detail.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsenpollen\lr_vossenstaart.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_748_36aa37.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_749_72d0e1.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_754_d58e32.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_755_28b2c6.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_757_0013e5.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_758_ae0a67.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_media_759_98ba84.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\lr_zwarte-els-katjes.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_751_3f7910.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_752_cf699f.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_753_4471ad.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_756_fa9496.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_760_9c3dd8.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_761_587168.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Data\Hooikoortsveroozakers\media_762_32f55c.jpg" />
     <None Include="$(MSBuildThisFileDirectory)ViewModels\BaseViewModel.cs" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Fonts\ClinkClank.ttf" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Fonts\NeoTechStd-Regular.otf" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Images\kaffe.jpg" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Svg\Arrows.svg" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Svg\Demo.svg" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Svg\Smile.svg" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Svg\SpaceShips.svg" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\.DS_Store" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Fonts\Material-Design-Iconic-Font.ttf" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Fonts\fontawesome.ttf" />
+    <None Include="$(MSBuildThisFileDirectory)Views\Components\ActionButton2.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\LogoutPage.xaml">

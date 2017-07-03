@@ -199,6 +199,13 @@
     <Compile Include="CustomList.cs" />
     <Compile Include="CustomWebView.cs" />
     <Compile Include="-\System\ComponentModel\Composition\XElementExportProvider.cs" />
+    <Compile Include="BlurViewRenderer.cs" />
+    <Compile Include="CardPageHelper.cs" />
+    <Compile Include="CardPageRenderer.cs" />
+    <Compile Include="ExtendedEntryRenderer.cs" />
+    <Compile Include="NControls.cs" />
+    <Compile Include="RoundCornerViewRenderer.cs" />
+    <Compile Include="TouchFixedScrollViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\profile_generic.png" />
@@ -240,6 +247,15 @@
     <BundleResource Include="Resources\media_760_9c3dd8.jpg" />
     <BundleResource Include="Resources\media_761_587168.jpg" />
     <BundleResource Include="Resources\media_762_32f55c.jpg" />
+    <BundleResource Include="Resources\001-map-location.png" />
+    <BundleResource Include="Resources\Fonts\ClinkClank.ttf" />
+    <BundleResource Include="Resources\Fonts\NeoTechStd-Regular.otf" />
+    <BundleResource Include="Resources\Images\kaffe.jpg" />
+    <BundleResource Include="Resources\Svg\Arrows.svg" />
+    <BundleResource Include="Resources\Svg\Demo.svg" />
+    <BundleResource Include="Resources\Svg\Smile.svg" />
+    <BundleResource Include="Resources\Svg\SpaceShips.svg" />
+    <BundleResource Include="Resources\001-sun.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="..\testapp\testapp.projitems" Label="Shared" Condition="Exists('..\testapp\testapp.projitems')" />

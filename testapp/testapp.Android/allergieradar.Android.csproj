@@ -164,6 +164,7 @@
     <AndroidResource Include="Resources\drawable-hdpi\003-newspaper.png" />
     <AndroidResource Include="Resources\drawable-hdpi\004-home.png" />
     <AndroidResource Include="Resources\drawable\allergieradar_tab.png" />
+    <AndroidResource Include="Resources\drawable\001-map-location.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\jquery-2.1.1.intellisense.js" />
