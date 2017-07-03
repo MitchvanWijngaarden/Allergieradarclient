@@ -78,6 +78,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\LoginViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainPageModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SignupViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Components\ActionButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\LoginPage.xaml.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\LogoutPage.xaml.cs">
       <DependentUpon>LogoutPage.xaml</DependentUpon>
@@ -121,7 +122,6 @@
       <DependentUpon>WeatherPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\ActionButtonPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\Components\ActionButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controllers\WeatherController.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Weather.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\WeatherService.cs" />

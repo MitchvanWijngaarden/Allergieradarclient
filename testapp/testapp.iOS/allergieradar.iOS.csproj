@@ -89,6 +89,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NControl, Version=0.2.6251.21805, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NControl.0.9.1.0\lib\Xamarin.iOS10\NControl.dll</HintPath>
+    </Reference>
+    <Reference Include="NControl.Controls, Version=1.0.6252.23106, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NControl.Controls.0.9.4.1\lib\Xamarin.iOS10\NControl.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="NControl.Controls.iOS, Version=1.0.6252.23107, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NControl.Controls.0.9.4.1\lib\Xamarin.iOS10\NControl.Controls.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="NControl.iOS, Version=0.2.6251.21812, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NControl.0.9.1.0\lib\Xamarin.iOS10\NControl.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.10.0.2\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Plugin.Geolocator, Version=3.0.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xam.Plugin.Geolocator.3.0.4\lib\Xamarin.iOS10\Plugin.Geolocator.dll</HintPath>
     </Reference>
@@ -121,17 +136,8 @@
     <Reference Include="NGraphics.iOS">
       <HintPath>..\..\packages\NGraphics.0.4.0\lib\Xamarin.iOS10\NGraphics.iOS.dll</HintPath>
     </Reference>
-    <Reference Include="NControl">
-      <HintPath>..\..\packages\NControl.0.9.1.0\lib\Xamarin.iOS10\NControl.dll</HintPath>
-    </Reference>
-    <Reference Include="NControl.iOS">
-      <HintPath>..\..\packages\NControl.0.9.1.0\lib\Xamarin.iOS10\NControl.iOS.dll</HintPath>
-    </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\packages\Newtonsoft.Json.10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Forms.Core">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
     </Reference>
@@ -143,12 +149,6 @@
     </Reference>
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
-    </Reference>
-    <Reference Include="NControl.Controls">
-      <HintPath>..\..\packages\NControl.Controls.0.9.4.1\lib\Xamarin.iOS10\NControl.Controls.dll</HintPath>
-    </Reference>
-    <Reference Include="NControl.Controls.iOS">
-      <HintPath>..\..\packages\NControl.Controls.0.9.4.1\lib\Xamarin.iOS10\NControl.Controls.iOS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -193,18 +193,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="-\System\ComponentModel\Composition\XElementExportProvider.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="BaseUrl_iOS.cs" />
     <Compile Include="CustomList.cs" />
     <Compile Include="CustomWebView.cs" />
-    <Compile Include="-\System\ComponentModel\Composition\XElementExportProvider.cs" />
-    <Compile Include="BlurViewRenderer.cs" />
-    <Compile Include="CardPageHelper.cs" />
-    <Compile Include="CardPageRenderer.cs" />
-    <Compile Include="ExtendedEntryRenderer.cs" />
-    <Compile Include="NControls.cs" />
-    <Compile Include="RoundCornerViewRenderer.cs" />
     <Compile Include="TouchFixedScrollViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>

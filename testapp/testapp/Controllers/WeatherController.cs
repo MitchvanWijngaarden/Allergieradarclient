@@ -20,21 +20,21 @@ namespace testapp.Controllers
 			
 		}
 
-		public List<Weather> GetWeather()
-		{
-			List<Weather> list = new List<Weather>();
-			var json = WeatherService.Instance.GetAllComplaints();
+		//public List<Weather> GetWeather()
+		//{
+		//	List<Weather> list = new List<Weather>();
+		//	var json = WeatherService.Instance.;
 
-			IEnumerable<Weather> result = JsonConvert.DeserializeObject<IEnumerable<Weather>>(json);
+		//	IEnumerable<Weather> result = JsonConvert.DeserializeObject<IEnumerable<Weather>>(json);
 
-			foreach (Weather w in result)
-			{
-				list.Add(w);
-			}
+		//	foreach (Weather w in result)
+		//	{
+		//		list.Add(w);
+		//	}
 
-			return list;
+		//	return list;
 
-		}
+		//}
 
     }
 }
