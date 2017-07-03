@@ -6,8 +6,8 @@ using Foundation;
 
 namespace WorkingWithWebview.iOS 
 {
-	public class BaseUrl_iOS : IBaseUrl 
-	{
+	public class BaseUrl_iOS : testapp.Views.IBaseUrl
+    {
 		public string Get () 
 		{
 			return NSBundle.MainBundle.BundlePath;

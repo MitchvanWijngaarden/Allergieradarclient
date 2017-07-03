@@ -21,6 +21,7 @@ namespace testapp.Views
         public LoginPage()
         {
             InitializeComponent();
+            NavigationPage.SetTitleIcon(this, "allergieradar_tab.png");
             Username = LoggedinUser.Username;
             Password = LoggedinUser.Password;
         }

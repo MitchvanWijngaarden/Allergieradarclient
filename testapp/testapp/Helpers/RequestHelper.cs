@@ -8,7 +8,8 @@ using testapp.Models;
 
 namespace testapp.Helpers
 {
-    class RequestHelper {
+    class RequestHelper
+    {
 
         private string apiURL = Settings.URL;
         private string authenticationToken = LoggedinUser.AccessToken;

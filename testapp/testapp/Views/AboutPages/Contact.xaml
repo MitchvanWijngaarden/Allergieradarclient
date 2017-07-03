@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="testapp.Views.AboutPages.Contact">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="testapp.Views.AboutPages.Contact" Title="Contact" >
 	<ContentPage.Content>
-	</ContentPage.Content>
+        <StackLayout Padding="20,20">
+            <Label Text="Heb je vragen over inloggen, het onderzoek, het klachtendagboek of iets anders neem dan contact op via info@allergieradar.nl."/>
+
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

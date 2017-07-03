@@ -1,8 +1,6 @@
-﻿﻿using System;
+﻿﻿﻿using System;
 using System.Collections.Generic;
-using testapp.Helpers;
 using testapp.Models;
-using WorkingWithWebview;
 using Xamarin.Forms;
 
 namespace testapp.Views
@@ -19,16 +17,21 @@ namespace testapp.Views
 
             
 
-			var page1 = new ViewModels.MenuPageViewModel() { Title = "Home", Icon = "itemIcon1.png", TargetType = typeof(MapPage) };
+			var page1 = new ViewModels.MenuPageViewModel() { Title = "Kaart", Icon = "001-map-location.png", TargetType = typeof(MapPage) };
 			var page2 = new ViewModels.MenuPageViewModel() { Title = "Informatie", Icon = "tab_about.png", TargetType = typeof(InfoPage) };
-            //var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(ComplaintFormPage) };
-            var loginPage = new ViewModels.MenuPageViewModel() { Title = "Inloggen", Icon = "itemIcon1.png", TargetType = typeof(LoginPage)};
-            var logoutPage = new ViewModels.MenuPageViewModel() { Title = "Uitloggen", Icon = "itemIcon1.png,", TargetType = typeof(LogoutPage) };
+            var page3 = new ViewModels.MenuPageViewModel() { Title = "Klachten melden", Icon = "itemIcon1.png", TargetType = typeof(ComplaintFormPage) };
+            var weer = new ViewModels.MenuPageViewModel() { Title = "Weer", Icon = "001-sun.png", TargetType = typeof(WeatherPage) };
+            var news = new ViewModels.MenuPageViewModel() { Title = "Nieuws", Icon = "003-newspaper.png", TargetType = typeof(RssFeedPage) };
+            var loginPage = new ViewModels.MenuPageViewModel() { Title = "Inloggen", Icon = "001-login.png", TargetType = typeof(LoginPage)};
+            var logoutPage = new ViewModels.MenuPageViewModel() { Title = "Uitloggen", Icon = "002-logout.png", TargetType = typeof(LogoutPage) };
 
 
             menuList.Add(page1);
-			menuList.Add(page2);
-            //menuList.Add(page3);
+			menuList.Add(weer);
+            menuList.Add(news);
+            menuList.Add(page2);
+
+   
 
             if (string.IsNullOrEmpty(LoggedinUser.AccessToken))
             {

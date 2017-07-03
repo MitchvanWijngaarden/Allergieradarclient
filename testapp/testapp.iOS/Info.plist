@@ -43,5 +43,14 @@
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>UIMainStoryboardFile</key>
 	<string>LaunchScreen</string>
+	<key>CFBundleExecutable</key>
+	<string></string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Locatie opvragen</string>
 </dict>
 </plist>

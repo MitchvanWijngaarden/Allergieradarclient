@@ -44,7 +44,7 @@
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Developer: vedad-pr@hotmail.com (G2S3RMSRBQ)</CodesignKey>
     <MtouchFloat32>true</MtouchFloat32>
-    <CodesignEntitlements>Info.plist</CodesignEntitlements>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
@@ -89,6 +89,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NControl, Version=0.2.6251.21805, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NControl.0.9.1.0\lib\Xamarin.iOS10\NControl.dll</HintPath>
+    </Reference>
+    <Reference Include="NControl.Controls, Version=1.0.6252.23106, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NControl.Controls.0.9.4.1\lib\Xamarin.iOS10\NControl.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="NControl.Controls.iOS, Version=1.0.6252.23107, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NControl.Controls.0.9.4.1\lib\Xamarin.iOS10\NControl.Controls.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="NControl.iOS, Version=0.2.6251.21812, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NControl.0.9.1.0\lib\Xamarin.iOS10\NControl.iOS.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Newtonsoft.Json.10.0.2\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -108,30 +120,35 @@
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
-    <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Forms.2.3.4.224\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Forms.2.3.4.224\lib\Xamarin.iOS10\Xamarin.Forms.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Platform.iOS, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Forms.2.3.4.224\lib\Xamarin.iOS10\Xamarin.Forms.Platform.iOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Forms.2.3.4.224\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.iOS" />
     <Reference Include="System.Net.Http" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.IO.Compression" />
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\packages\Newtonsoft.Json.10.0.2\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Plugin.Geolocator.Abstractions">
       <HintPath>..\..\packages\Xam.Plugin.Geolocator.3.0.4\lib\Xamarin.iOS10\Plugin.Geolocator.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Plugin.Geolocator">
       <HintPath>..\..\packages\Xam.Plugin.Geolocator.3.0.4\lib\Xamarin.iOS10\Plugin.Geolocator.dll</HintPath>
+    </Reference>
+    <Reference Include="NGraphics">
+      <HintPath>..\..\packages\NGraphics.0.4.0\lib\Xamarin.iOS10\NGraphics.dll</HintPath>
+    </Reference>
+    <Reference Include="NGraphics.iOS">
+      <HintPath>..\..\packages\NGraphics.0.4.0\lib\Xamarin.iOS10\NGraphics.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\Xamarin.iOS10\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.iOS">
+      <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\Xamarin.iOS10\Xamarin.Forms.Platform.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -174,34 +191,15 @@
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
     <None Include="packages.config" />
-    <None Include="Data\Hooikoortsenpollen\geranium.jpg" />
-    <None Include="Data\Hooikoortsenpollen\lr_hazelaarpollenopvinger.jpg" />
-    <None Include="Data\Hooikoortsenpollen\lr_media_742_064128.jpg" />
-    <None Include="Data\Hooikoortsenpollen\lr_media_749_72d0e1.jpg" />
-    <None Include="Data\Hooikoortsenpollen\lr_vossenstaart.jpg" />
-    <None Include="Data\Hooikoortsenpollen\lr_vossenstaart-detail.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_748_36aa37.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_749_72d0e1.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_754_d58e32.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_755_28b2c6.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_757_0013e5.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_758_ae0a67.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_media_759_98ba84.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\lr_zwarte-els-katjes.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_751_3f7910.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_752_cf699f.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_753_4471ad.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_756_fa9496.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_760_9c3dd8.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_761_587168.jpg" />
-    <None Include="Data\Hooikoortsveroozakers\media_762_32f55c.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="-\System\ComponentModel\Composition\XElementExportProvider.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="BaseUrl_iOS.cs" />
     <Compile Include="CustomList.cs" />
     <Compile Include="CustomWebView.cs" />
+    <Compile Include="TouchFixedScrollViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\profile_generic.png" />
@@ -216,26 +214,45 @@
     <BundleResource Include="Resources\tab_feed%402x.png" />
     <BundleResource Include="Resources\tab_feed%403x.png" />
     <BundleResource Include="Resources\allergieradar_logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Data\Allergie.txt" />
-    <Content Include="Data\Contact.txt" />
-    <Content Include="Data\Hooikoorts veroorzakende pollen.txt" />
-    <Content Include="Data\Hooikoortsenpollen.txt" />
-    <Content Include="Data\Onderzoeksdoelen.txt" />
-    <Content Include="Data\Over AllergieRadar.txt" />
-    <Content Include="Data\Rechten en Privacy.txt" />
-    <Content Include="Data\Uitleg van de Allergieradar App.txt" />
-    <Content Include="Resources\country.html" />
+    <BundleResource Include="Resources\country.html" />
+    <BundleResource Include="Resources\001-login.png" />
+    <BundleResource Include="Resources\002-logout.png" />
+    <BundleResource Include="Resources\003-newspaper.png" />
+    <BundleResource Include="Resources\004-home.png" />
+    <BundleResource Include="Resources\allergieradar_tab.png" />
+    <BundleResource Include="Resources\geranium.jpg" />
+    <BundleResource Include="Resources\icon.png" />
+    <BundleResource Include="Resources\lr_hazelaarpollenopvinger.jpg" />
+    <BundleResource Include="Resources\lr_media_742_064128.jpg" />
+    <BundleResource Include="Resources\lr_media_748_36aa37.jpg" />
+    <BundleResource Include="Resources\lr_media_749_72d0e1.jpg" />
+    <BundleResource Include="Resources\lr_media_754_d58e32.jpg" />
+    <BundleResource Include="Resources\lr_media_755_28b2c6.jpg" />
+    <BundleResource Include="Resources\lr_media_757_0013e5.jpg" />
+    <BundleResource Include="Resources\lr_media_758_ae0a67.jpg" />
+    <BundleResource Include="Resources\lr_media_759_98ba84.jpg" />
+    <BundleResource Include="Resources\lr_vossenstaart_detail.jpg" />
+    <BundleResource Include="Resources\lr_vossenstaart.jpg" />
+    <BundleResource Include="Resources\lr_zwarte_els_katjes.jpg" />
+    <BundleResource Include="Resources\media_751_3f7910.jpg" />
+    <BundleResource Include="Resources\media_752_cf699f.jpg" />
+    <BundleResource Include="Resources\media_753_4471ad.jpg" />
+    <BundleResource Include="Resources\media_756_fa9496.jpg" />
+    <BundleResource Include="Resources\media_760_9c3dd8.jpg" />
+    <BundleResource Include="Resources\media_761_587168.jpg" />
+    <BundleResource Include="Resources\media_762_32f55c.jpg" />
+    <BundleResource Include="Resources\001-map-location.png" />
+    <BundleResource Include="Resources\Fonts\ClinkClank.ttf" />
+    <BundleResource Include="Resources\Fonts\NeoTechStd-Regular.otf" />
+    <BundleResource Include="Resources\Images\kaffe.jpg" />
+    <BundleResource Include="Resources\Svg\Arrows.svg" />
+    <BundleResource Include="Resources\Svg\Demo.svg" />
+    <BundleResource Include="Resources\Svg\Smile.svg" />
+    <BundleResource Include="Resources\Svg\SpaceShips.svg" />
+    <BundleResource Include="Resources\001-sun.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="..\testapp\testapp.projitems" Label="Shared" Condition="Exists('..\testapp\testapp.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <Import Project="..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets'))" />
-  </Target>
+  <Import Project="..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
 </Project>

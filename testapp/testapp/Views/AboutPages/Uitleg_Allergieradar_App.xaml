@@ -1,5 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="testapp.Views.AboutPages.Uitleg_Allergieradar_App">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="testapp.Views.AboutPages.Uitleg_Allergieradar_App" Title="Handleiding">
 	<ContentPage.Content>
-	</ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20,20">
+
+                <Label Text="In het menu kan worden ingelogd. Mocht je nog geen account hebben, kan je een account aanmaken door op de inlogpagina op de knop registreren te drukken."/>
+                <ContentView Padding="0,20,0,0">
+                    <Label Text="Kaart"  Style="{DynamicResource TitleStyle}" />
+                </ContentView>
+
+                <Label Text="In de kaart van Nederland verschijnt op elke plek waar iemand die dag een klachtenscore heeft doorgegeven een gekleurd rondje. De kleur van het rondje komt overeen met de maximale klachtenscore die de persoon heeft doorgegeven."/>
+
+                <Label Text="Landelijke klachtenscore: " Style="{DynamicResource SubTitleStyle}" FontAttributes="Italic"/>
+
+                <Label Text="Het cijfer geeft de landelijke gemiddelde maximale klachtenscore weer die door de deelnemers vandaag zijn doorgegeven. De klachtenscore kan variëren van 1 (geen klachten) tot 10 (maximale klachten). "/>
+                
+                <ContentView Padding="0,20,0,0">
+                    <Label Text="Klacht"  Style="{DynamicResource TitleStyle}" />
+                </ContentView>
+
+                <Label Text="Indien je je geregistreerd hebt en je op de App ingelogd bent verschijnt de optie klacht doorgeven. Op de kaart verschijnt de plus knop. Op deze pagina kun je jouw klachtenscore melden. Je vult achtereenvolgens het volgende in:"/>
+
+                <Label Text="De locatie waar je de hooikoortsklachten ervaren hebt. Die staat standaard op 'Huidige locatie'. De huidige locatie wordt bepaald op basis van je positie ten opzichte van telefoonmasten. Indien de GPS aan staat wordt van die optie gebruik gemaakt."/>
+
+                <Label Text="De mate van oogklachten, neusklachten en longklachten. Je kunt het juiste klachtenniveau selecteren door de schuifbalk te verschuiven."/>
+
+                <Label Text="Tenslotte vragen we je om aan te geven of je in de afgelopen 24 uur medicijnen voor jouw hooikoorts gebruikt hebt."/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

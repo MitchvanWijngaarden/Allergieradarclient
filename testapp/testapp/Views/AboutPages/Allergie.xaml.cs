@@ -10,6 +10,8 @@ namespace testapp.Views.AboutPages
         public Allergie()
         {
             InitializeComponent();
+
         }
     }
+
 }

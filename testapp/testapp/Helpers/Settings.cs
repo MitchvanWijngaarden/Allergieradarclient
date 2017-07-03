@@ -11,6 +11,6 @@ namespace testapp.Helpers
     /// </summary>
     public static class Settings
     {
-        public static string URL = "http://10.0.3.2:8080/api/";
+        public static string URL = "http://192.168.178.19:8080/api/";
     }
 }
