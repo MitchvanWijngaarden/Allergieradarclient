@@ -14,7 +14,7 @@ namespace testapp.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class MedicinePage : ContentPage
 	{
-        private VragenlijstController controller;
+        private QuestionController controller;
 
         private StackLayout layout;
 
@@ -22,7 +22,7 @@ namespace testapp.Views
 
         public MedicinePage ()
 		{
-            controller = new VragenlijstController();
+            controller = new QuestionController();
 
             layout = new StackLayout();
 

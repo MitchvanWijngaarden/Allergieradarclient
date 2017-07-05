@@ -13,12 +13,12 @@ namespace testapp.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class RemainingQuestions : ContentPage
 	{
-        private VragenlijstController controller;
+        private QuestionController controller;
 
         public RemainingQuestions ()
 		{
             InitializeComponent();
-            controller = new VragenlijstController();
+            controller = new QuestionController();
         }
 
         private void Button_End(object sender, EventArgs e)
@@ -36,6 +36,7 @@ namespace testapp.Views
 
                 controller.SendData();
 
+                Navigation.PopModalAsync();
                 Navigation.PopModalAsync();
             }
             else
