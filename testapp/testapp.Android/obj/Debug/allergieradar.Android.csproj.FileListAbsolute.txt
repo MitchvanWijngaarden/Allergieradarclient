@@ -284,3 +284,5 @@ G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testa
 G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\res\drawable\001-map-location.png
 G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\NGraphics.Android.dll.mdb
 G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\android\assets\NGraphics.dll.mdb
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.MedicinePage.xaml.g.cs
+G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.RemainingQuestions.xaml.g.cs

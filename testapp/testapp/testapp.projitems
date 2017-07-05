@@ -59,14 +59,26 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Controllers\ComplaintsController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\SignUpController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\VragenlijstController.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\RequestHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Settings.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\BaseDataObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\LoggedinUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Medicine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Medicines.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Possibleanswer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Question.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Questions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\UserAnswer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\UserAnswers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\UserMedicine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\UserMedicines.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\LoginService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ObservableObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ObservableRangeCollection.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\MessengingCenterAlert.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\SignUpService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\ComplaintFormPage.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -83,6 +95,12 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\LogoutPage.xaml.cs">
       <DependentUpon>LogoutPage.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MedicinePage.xaml.cs">
+      <DependentUpon>MedicinePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\RemainingQuestions.xaml.cs">
+      <DependentUpon>RemainingQuestions.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\SignUpPage.xaml.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\MapPage.cs" />
@@ -118,6 +136,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModelBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\RssFeedViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\RssItemViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Vragenlijst.xaml.cs">
+      <DependentUpon>Vragenlijst.xaml</DependentUpon>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\WeatherPage.xaml.cs">
       <DependentUpon>WeatherPage.xaml</DependentUpon>
     </Compile>
@@ -154,5 +175,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MedicinePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\RemainingQuestions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Vragenlijst.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 </Project>
