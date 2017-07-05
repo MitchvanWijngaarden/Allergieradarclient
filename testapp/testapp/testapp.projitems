@@ -59,8 +59,8 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Controllers\ComplaintsController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\QuestionController.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controllers\SignUpController.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Controllers\VragenlijstController.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\RequestHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Settings.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\BaseDataObject.cs" />
@@ -99,6 +99,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\MedicinePage.xaml.cs">
       <DependentUpon>MedicinePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\QuestionPage.xaml.cs">
+      <DependentUpon>QuestionPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\RemainingQuestions.xaml.cs">
       <DependentUpon>RemainingQuestions.xaml</DependentUpon>
     </Compile>
@@ -136,9 +139,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModelBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\RssFeedViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\RssItemViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\Vragenlijst.xaml.cs">
-      <DependentUpon>Vragenlijst.xaml</DependentUpon>
-    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\WeatherPage.xaml.cs">
       <DependentUpon>WeatherPage.xaml</DependentUpon>
     </Compile>
@@ -185,7 +185,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
-    <Page Include="$(MSBuildThisFileDirectory)Views\Vragenlijst.xaml">
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Views\QuestionPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

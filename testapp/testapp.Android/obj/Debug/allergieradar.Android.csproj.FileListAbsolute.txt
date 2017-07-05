@@ -59,7 +59,6 @@ G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testa
 G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.xml
 G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\allergieradar.Android.csprojResolveAssemblyReference.cache
 G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.App.xaml.g.cs
 G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.RootPage.xaml.g.cs
 G:\Bernd Oostrum\Documents\Visual Studio 2017\Projects\Allergieradarclient\testapp\testapp.Android\obj\Debug\testapp.Droid.Views.LoginPage.xaml.g.cs
