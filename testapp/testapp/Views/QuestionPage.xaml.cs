@@ -12,9 +12,9 @@ using testapp.Models;
 namespace testapp.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Vragenlijst : ContentPage
+	public partial class QuestionPage : ContentPage
 	{
-        private VragenlijstController controller;
+        private QuestionController controller;
 
         private ScrollView scrollview;
 
@@ -22,7 +22,7 @@ namespace testapp.Views
 
         private Question question;
 
-		public Vragenlijst (String questionnumber)
+		public QuestionPage (String questionnumber)
 		{
             //InitializeComponent();
 
@@ -30,7 +30,7 @@ namespace testapp.Views
 
             layout = new StackLayout();
 
-            this.controller = new VragenlijstController();
+            this.controller = new QuestionController();
 
             FillLayoutByQuestion(questionnumber);
 		}
@@ -106,7 +106,7 @@ namespace testapp.Views
                 }
                 else
                 {
-                    Navigation.PushModalAsync(new Vragenlijst(questionnumber));
+                    Navigation.PushModalAsync(new QuestionPage(questionnumber));
                 }
             }
             else

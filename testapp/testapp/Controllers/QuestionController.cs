@@ -10,9 +10,9 @@ using testapp.Views;
 
 namespace testapp.Controllers
 {
-    class VragenlijstController
+    class QuestionController
     {
-        public VragenlijstController()
+        public QuestionController()
         {
 
         }
