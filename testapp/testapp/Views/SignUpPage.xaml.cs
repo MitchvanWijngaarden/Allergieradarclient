@@ -42,8 +42,8 @@ namespace testapp.Views
                 if (userID == 0)
                 {
                     UserAnswers.Instance.useranswers.Clear();
-                    //Navigation.PushModalAsync(new Vragenlijst("1"));
-                    Navigation.PushModalAsync(new MedicinePage());
+                    Navigation.PushModalAsync(new Vragenlijst("1"));
+                    //Navigation.PushModalAsync(new V;
                 }
                 else
                 {
