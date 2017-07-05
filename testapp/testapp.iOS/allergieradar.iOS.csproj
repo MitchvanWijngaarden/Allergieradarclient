@@ -200,6 +200,9 @@
     <Compile Include="CustomList.cs" />
     <Compile Include="CustomWebView.cs" />
     <Compile Include="TouchFixedScrollViewRenderer.cs" />
+    <Compile Include="ExtendedEntryRenderer.cs" />
+    <Compile Include="NControls.cs" />
+    <Compile Include="RoundCornerViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\profile_generic.png" />

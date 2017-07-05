@@ -162,20 +162,7 @@
     <None Include="Scripts\jquery-3.1.1-vsdoc.js" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Tabbar.axml" />
-    <AndroidResource Include="Resources\layout\Toolbar.axml" />
-    <AndroidResource Include="Resources\values\styles.xml" />
-    <AndroidResource Include="Resources\drawable\slideout.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\profile_generic.png" />
-    <AndroidResource Include="Resources\drawable-mdpi\profile_generic.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\profile_generic.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\profile_generic.png" />
-    <AndroidResource Include="Resources\drawable-xxxhdpi\profile_generic.png" />
     <AndroidResource Include="Resources\drawable\allergieradar_tab.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\AboutResources.txt" />
-    <AndroidResource Include="Resources\drawable\allergieradar_logo.png" />
     <AndroidResource Include="Resources\drawable\geranium.jpg" />
     <AndroidResource Include="Resources\drawable\icon.png" />
     <AndroidResource Include="Resources\drawable\lr_hazelaarpollenopvinger.jpg" />
@@ -198,6 +185,19 @@
     <AndroidResource Include="Resources\drawable\media_760_9c3dd8.jpg" />
     <AndroidResource Include="Resources\drawable\media_761_587168.jpg" />
     <AndroidResource Include="Resources\drawable\media_762_32f55c.jpg" />
+    <AndroidResource Include="Resources\drawable\slideout.png" />
+    <AndroidResource Include="Resources\layout\Tabbar.axml" />
+    <AndroidResource Include="Resources\layout\Toolbar.axml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\profile_generic.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\profile_generic.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\profile_generic.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\profile_generic.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\profile_generic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\AboutResources.txt" />
+    <AndroidResource Include="Resources\drawable\allergieradar_logo.png" />
     <AndroidResource Include="Resources\drawable\home.png" />
     <AndroidResource Include="Resources\drawable\login.png" />
     <AndroidResource Include="Resources\drawable\logout.png" />

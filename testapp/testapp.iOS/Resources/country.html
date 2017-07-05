@@ -18,7 +18,7 @@
         google.load('visualization', '1', { packages: ['geochart'] });
         $(function () {
             // when document loads, grab the json
-            $.getJSON('http://192.168.178.19:8080/api/map', function (data) {
+            $.getJSON('http://145.101.89.5:8080/api/map', function (data) {
                 // once grabbed, we run this callback
                 // setup the new map and its variables
                 var map = new google.visualization.DataTable();
@@ -47,9 +47,9 @@
     </script>
 </head>
 <body>
-    <div id="chart_div" style="zoom: 2;
+    <div id="chart_div" style="zoom: 2.1;
          position: fixed;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);"></div>
 </body>
