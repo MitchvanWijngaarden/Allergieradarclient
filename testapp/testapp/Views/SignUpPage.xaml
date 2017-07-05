@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="testapp.Views.SignUpPage" Title="Sign Up" WidthRequest="20" Padding="20">
+             x:Class="testapp.Views.SignUpPage" Title="Registreren" WidthRequest="20" Padding="20">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" Spacing="20" Padding="50">
-            <Label Text="Username" />
+            <Label Text="Gebruikersnaam" />
             <Entry x:Name="usernameEntry" />
-            <Label Text="Password" />
+            <Label Text="Wachtwoord" />
             <Entry x:Name="passwordEntry" IsPassword="true" />
-            <Label Text="Email address" />
+            <Label Text="Emailadres" />
             <Entry x:Name="emailEntry" />
-            <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" />
+            <Button Text="Naar vragenlijst" Clicked="OnSignUpButtonClicked" />
             <Label x:Name="messageLabel" />
         </StackLayout>
     </ContentPage.Content>
