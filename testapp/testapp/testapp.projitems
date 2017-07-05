@@ -6,7 +6,7 @@
     <SharedGUID>{de68ea3a-2f87-4b5d-99e3-fc3f5d910c41}</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>testapp</Import_RootNamespace>
+    <Import_RootNamespace>Allergieradar</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />

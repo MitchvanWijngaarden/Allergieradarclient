@@ -215,10 +215,10 @@
     <BundleResource Include="Resources\tab_feed%403x.png" />
     <BundleResource Include="Resources\allergieradar_logo.png" />
     <BundleResource Include="Resources\country.html" />
-    <BundleResource Include="Resources\001-login.png" />
-    <BundleResource Include="Resources\002-logout.png" />
-    <BundleResource Include="Resources\003-newspaper.png" />
-    <BundleResource Include="Resources\004-home.png" />
+    <BundleResource Include="Resources\001_login.png" />
+    <BundleResource Include="Resources\002_logout.png" />
+    <BundleResource Include="Resources\003_newspaper.png" />
+    <BundleResource Include="Resources\004_home.png" />
     <BundleResource Include="Resources\allergieradar_tab.png" />
     <BundleResource Include="Resources\geranium.jpg" />
     <BundleResource Include="Resources\icon.png" />
@@ -241,7 +241,7 @@
     <BundleResource Include="Resources\media_760_9c3dd8.jpg" />
     <BundleResource Include="Resources\media_761_587168.jpg" />
     <BundleResource Include="Resources\media_762_32f55c.jpg" />
-    <BundleResource Include="Resources\001-map-location.png" />
+    <BundleResource Include="Resources\001_map_location.png" />
     <BundleResource Include="Resources\Fonts\ClinkClank.ttf" />
     <BundleResource Include="Resources\Fonts\NeoTechStd-Regular.otf" />
     <BundleResource Include="Resources\Images\kaffe.jpg" />
@@ -249,7 +249,7 @@
     <BundleResource Include="Resources\Svg\Demo.svg" />
     <BundleResource Include="Resources\Svg\Smile.svg" />
     <BundleResource Include="Resources\Svg\SpaceShips.svg" />
-    <BundleResource Include="Resources\001-sun.png" />
+    <BundleResource Include="Resources\001_sun.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="..\testapp\testapp.projitems" Label="Shared" Condition="Exists('..\testapp\testapp.projitems')" />
